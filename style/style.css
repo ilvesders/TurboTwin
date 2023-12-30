@@ -263,7 +263,6 @@ label i {
   justify-content: center;
   font-family: Manrope;
   text-align: center;
-  padding-bottom: 500px;
 }
 
 .containerheader {
@@ -271,4 +270,55 @@ label i {
   font-size: 45px;
   max-width: 700px;
   line-height: 1;
+}
+
+.containeradvantageslis {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+
+.container-first-module {
+  font-family: Manrope;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-left {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-circle {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(194, 194, 194);
+  border-radius: 50%;
+  display: flex;
+}
+
+.container-right {
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.container-layer-top {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+.container-layer-botton {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: rgb(134, 134, 134);
 }/*# sourceMappingURL=style.css.map */

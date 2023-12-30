@@ -77,18 +77,18 @@ label i {
 .container-right-main {
   padding-top: 5px;
   color: white;
-  padding-left: 53%;
+  padding-left: 47.5%;
   padding-right: 40px;
   font-family: Manrope;
 }
 .container-right-main h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 .container-right-main p {
   padding-top: 10px;
-  font-size: 12px;
-  max-width: 150px;
-  color: rgb(150, 150, 150);
+  font-size: 14px;
+  max-width: 230px;
+  color: rgb(134, 134, 134);
 }
 
 .containermain {
@@ -103,7 +103,7 @@ label i {
   background-color: white;
   border-radius: 40px;
   width: 80px;
-  border: 2px solid white;
+  border: 1px solid white;
   padding-left: 41px;
   padding-right: 41px;
   transition: 0.3s;
@@ -120,7 +120,7 @@ label i {
 }
 
 .containerbtn:focus, .containerbtn:hover {
-  border: 2px solid white;
+  border: 1px solid white;
   background-color: black;
 }
 .containerbtn:focus a, .containerbtn:hover a {
@@ -134,9 +134,9 @@ label i {
   background-color: black;
   border-radius: 40px;
   width: 80px;
-  border: 2px solid white;
-  padding-left: 41px;
-  padding-right: 41px;
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -151,9 +151,107 @@ label i {
 }
 
 .containerbtn2:focus, .containerbtn2:hover {
-  border: 2px solid white;
+  border: 1px solid white;
   background-color: white;
 }
 .containerbtn2:focus a, .containerbtn2:hover a {
   color: black;
+}
+
+.container123 {
+  transform: translateY(-45%);
+  margin-left: 77%;
+  display: flex;
+  font-family: Manrope;
+  position: relative;
+}
+
+.containercirclesinthecolum1 {
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+.containercirclesinthecolum1 i {
+  color: black;
+  position: relative;
+  font-size: 30px;
+}
+
+.containercirclesinthecolum2 {
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(134, 134, 134);
+  position: relative;
+  text-align: center;
+}
+.containercirclesinthecolum2 i {
+  color: black;
+  position: relative;
+  font-size: 30px;
+}
+
+.containercirclesinthecolum3 {
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(134, 134, 134);
+  position: relative;
+  text-align: center;
+}
+.containercirclesinthecolum3 i {
+  color: black;
+  position: relative;
+  font-size: 30px;
+}
+
+.containertext1 {
+  padding-left: 60px;
+  position: absolute;
+  transition: 0.3s;
+  display: none;
+  top: 4%;
+}
+.containertext1 h3 {
+  color: white;
+}
+.containertext1 p {
+  color: rgb(134, 134, 134);
+  max-width: 200px;
+}
+
+.containertext2 {
+  display: none;
+  padding-left: 60px;
+  position: absolute;
+  transition: 0.3s;
+  top: 4%;
+}
+.containertext2 h3 {
+  color: white;
+}
+.containertext2 p {
+  color: rgb(134, 134, 134);
+  max-width: 200px;
+}
+
+.containertext3 {
+  display: none;
+  padding-left: 60px;
+  position: absolute;
+  transition: 0.3s;
+  top: 4%;
+}
+.containertext3 h3 {
+  color: white;
+}
+.containertext3 p {
+  color: rgb(134, 134, 134);
+  max-width: 200px;
 }/*# sourceMappingURL=style.css.map */

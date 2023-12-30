@@ -74,17 +74,17 @@ label i {
 .container-right-main {
     padding-top: 5px;
     color: white;
-    padding-left: 53%;
+    padding-left: 47.5%;
     padding-right: 40px;
     font-family: Manrope;
     h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
     p {
         padding-top: 10px;
-        font-size: 12px;
-        max-width: 150px;
-        color: rgb(150, 150, 150);
+        font-size: 14px;
+        max-width: 230px;
+        color: rgb(134, 134, 134);
     }
 }
 
@@ -100,7 +100,7 @@ label i {
     background-color: white;
     border-radius: 40px;
     width: 80px;
-    border: 2px solid white;
+    border: 1px solid white;
     padding-left: 41px;
     padding-right: 41px;
     transition: 0.3s;
@@ -117,7 +117,7 @@ label i {
 }
 
 .containerbtn:focus, .containerbtn:hover {
-    border: 2px solid white;
+    border: 1px solid white;
     background-color:black;
     a {
         color: white;
@@ -131,9 +131,9 @@ label i {
     background-color:black;
     border-radius: 40px;
     width: 80px;
-    border: 2px solid white;
-    padding-left: 41px;
-    padding-right: 41px;
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
     transition: 0.3s;
     cursor: pointer;
     a {
@@ -148,9 +148,104 @@ label i {
 }
 
 .containerbtn2:focus, .containerbtn2:hover {
-    border: 2px solid white;
+    border: 1px solid white;
     background-color:white;
     a {
         color: black;
+    }
+}
+
+
+.container123 {
+    transform: translateY(-45%);
+    margin-left: 77%;
+    display: flex;
+    font-family: Manrope;
+    position: relative;
+}
+
+.containercirclesinthecolum1{
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    i {
+        color: black;
+        position: relative;
+        font-size: 30px;
+    }
+}
+.containercirclesinthecolum2{
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+    i {
+        color: black;
+        position: relative;
+        font-size: 30px;
+    }
+}
+.containercirclesinthecolum3{
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+    i {
+        color: black;
+        position: relative;
+        font-size: 30px;
+    }
+}
+
+.containertext1 {
+    padding-left: 60px;
+    position: absolute;
+    transition: 0.3s;
+    display: none;
+    top: 4%;
+    h3 {
+        color: white;
+    }
+    p {
+        color: rgb(134, 134, 134);
+        max-width: 200px;
+    }
+}
+.containertext2 {
+    display: none;
+    padding-left: 60px;
+    position: absolute;
+    transition: 0.3s;
+    top: 4%;
+    h3 {
+        color: white;
+    }
+    p {
+        color: rgb(134, 134, 134);
+        max-width: 200px;
+    }
+}
+.containertext3 {
+    display: none;
+    padding-left: 60px;
+    position: absolute;
+    transition: 0.3s;
+    top: 4%;
+    h3 {
+        color: white;
+    }
+    p {
+        color: rgb(134, 134, 134);
+        max-width: 200px;
     }
 }

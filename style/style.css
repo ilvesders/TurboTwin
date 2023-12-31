@@ -112,7 +112,7 @@ label i {
 }
 .containerbtn a {
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
   color: black;
   font-weight: 500px;
@@ -277,7 +277,7 @@ label i {
   align-items: center;
   justify-content: space-around;
   margin-top: 30px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -295,31 +295,32 @@ label i {
 }
 
 .container-circle {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: #848484;
   border-radius: 50%;
   display: flex;
 }
 .container-circle i {
-  font-size: 30px;
+  font-size: 34px;
   color: #2e2e2e;
   position: relative;
   text-align: center;
-  margin-left: 9.5px;
-  margin-top: 4px;
+  margin-left: 12.5px;
+  margin-top: 13.5%;
 }
 
 .container-right {
   margin-left: 20px;
+  height: 155px;
 }
 
 .container-layer-top {
-  margin-top: 30px;
+  margin-top: 60px;
   margin-left: 10px;
   width: 300px;
   color: white;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .container-layer-botton {
@@ -328,14 +329,14 @@ label i {
   width: 300px;
   color: rgb(134, 134, 134);
   line-height: 1.1;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .containeradvantageslis1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -349,7 +350,7 @@ label i {
 .containerbutton23 {
   display: flex;
   justify-content: center;
-  padding-bottom: 400px;
+  padding-bottom: 40px;
 }
 .containerbutton23 .containeri2 {
   transition: 0.3s;

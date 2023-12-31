@@ -270,45 +270,93 @@ label i {
     justify-content:space-around;
     margin-top: 30px;
     padding-bottom: 80px;
+    position: relative;
 }
 
 .container-first-module {
     font-family: Manrope;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+.container-left {
+    display: flex;
+    position: relative;
+}
+.container-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #848484;
+    border-radius: 50%;
+    display: flex;
+    i {
+        font-size: 30px;
+        color: #2e2e2e;
+        position: relative;
+        text-align: center;
+        margin-left: 9.5px;
+        margin-top: 4px;
+    }
+}
+
+.container-right {
+    margin-left: 20px;
+}
+
+.container-layer-top {
+    margin-top: 30px;
+    margin-left: 10px;
     width: 300px;
+    color: white;
+    font-size: 18px;
+}
+
+.container-layer-botton {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 300px;
+    color: rgb(134, 134, 134);
+    line-height: 1.1;
+    font-size: 13px;
+}
+
+.containeradvantageslis1 {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.container-first-module1 {
+    font-family: Manrope;
     display: flex;
     align-items: center;
     justify-content:center;
 }
-.container-left {
-    width: 100px;
-    height: 100px;
+
+.containerbutton23 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding-bottom: 400px;
+    .containeri2 {
+        transition: 0.3s;
+        cursor: pointer;
+        border-radius: 30%;
+    }
+    i {
+        position: relative;
+        color: white;
+        font-size: 60px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
-.container-circle {
-    width: 70px;
-    height: 70px;
-    background-color: rgb(194, 194, 194);
+
+.containeri2:focus, .containeri2:hover {
+    background-color: #848484;
     border-radius: 50%;
-    display: flex;
-}
-
-.container-right {
-    width: 200px;
-    height: 100px;
-    margin-left: 10px;
-}
-
-.container-layer-top {
-    margin-top: 20px;
-    margin-left: 10px;
-    color: white;
-}
-
-.container-layer-botton {
-    margin-top: 20px;
-    margin-left: 10px;
-    color: rgb(134, 134, 134);
 }

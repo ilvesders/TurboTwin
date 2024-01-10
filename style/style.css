@@ -259,123 +259,6 @@ label i {
   max-width: 200px;
 }
 
-.container-advantages {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  font-family: lexend zetta;
-  text-align: center;
-}
-
-.containerheader {
-  color: white;
-  font-size: 40px;
-  line-height: 0.95;
-  letter-spacing: -18px;
-  text-align: center;
-  max-width: 700px;
-}
-
-.containeradvantageslis {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 30px;
-  padding-bottom: 50px;
-  position: relative;
-}
-
-.container-first-module {
-  font-family: Manrope;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.container-left {
-  display: flex;
-  position: relative;
-}
-
-.container-circle {
-  width: 60px;
-  height: 60px;
-  background-color: #848484;
-  border-radius: 50%;
-  display: flex;
-}
-.container-circle i {
-  font-size: 34px;
-  color: #2e2e2e;
-  position: relative;
-  text-align: center;
-  margin-left: 12.5px;
-  margin-top: 13.5%;
-}
-
-.container-right {
-  margin-left: 20px;
-  height: 155px;
-}
-
-.container-layer-top {
-  margin-top: 60px;
-  margin-left: 10px;
-  width: 300px;
-  color: white;
-  font-size: 22px;
-}
-
-.container-layer-botton {
-  margin-top: 8px;
-  margin-left: 10px;
-  width: 300px;
-  color: rgb(134, 134, 134);
-  line-height: 1.1;
-  font-size: 16px;
-}
-
-.containeradvantageslis1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
-  padding-bottom: 40px;
-}
-
-.container-first-module1 {
-  font-family: Manrope;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.containerbutton23 {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-.containerbutton23 .containeri2 {
-  transition: 0.3s;
-  cursor: pointer;
-  border-radius: 30%;
-}
-.containerbutton23 i {
-  position: relative;
-  color: white;
-  font-size: 60px;
-  padding-top: 2px;
-  padding-bottom: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.containeri2:focus, .containeri2:hover {
-  background-color: #848484;
-  border-radius: 50%;
-}
-
 .circle {
   width: 65px;
   height: 65px;
@@ -394,27 +277,11 @@ label i {
 }
 
 .container21123 {
+  margin-top: 400px;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
   gap: 26px;
   margin-left: 26px;
   margin-right: 26px;
-}
-
-.container-brands {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  font-family: lexend zetta;
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-.containerheader2 {
-  color: white;
-  font-size: 45px;
-  line-height: 0.9;
-  letter-spacing: -18px;
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */

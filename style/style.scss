@@ -73,14 +73,14 @@ label i {
     font-family: Manrope;
     h1 {
         max-width: 400px;
-        font-size: 54px;
-        line-height: 0.85;
+        font-size: 50px;
+        line-height: 0.80;
     }
     p {
-        margin-top: 14px;
+        margin-top: 10px;
         max-width: 220px;
-        font-size: 21px;
-        color:  rgb(134, 134, 134) ;
+        font-size: 18px;
+        color:  rgb(102, 102, 102) ;
         line-height: 1;
     }
 }
@@ -88,11 +88,18 @@ label i {
 .container-right-main {
     padding-top: 5px;
     color: white;
-    padding-left: 45%;
-    padding-right: 40px;
+    height: 170px;
+    margin-left: 43%;
+    margin-right: 40px;
     font-family: Manrope;
+    background-color:  #111111;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    border-radius: 30px;
     h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
     p {
         padding-top: 10px;
@@ -116,8 +123,8 @@ label i {
     border-radius: 40px;
     width: 80px;
     border: 1px solid white;
-    padding-left: 41px;
-    padding-right: 41px;
+    padding-left: 51px;
+    padding-right: 51px;
     transition: 0.3s;
     cursor: pointer;
     a {
@@ -141,14 +148,14 @@ label i {
 
 .containerbtn2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 8px;
-    background-color:#0c0c0c;
+    background-color:#111111;
     border-radius: 40px;
     width: 80px;
     border: 1px solid white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     transition: 0.3s;
     cursor: pointer;
     a {
@@ -174,6 +181,7 @@ label i {
 .container123 {
     transform: translateY(-45%);
     margin-left: 77%;
+    margin-top: 30px;
     display: flex;
     font-family: Manrope;
     position: relative;
@@ -229,36 +237,14 @@ label i {
     padding-left: 60px;
     position: absolute;
     transition: 0.3s;
-    display: none;
     top: 4%;
-    h3 {
-        color: white;
-    }
-    p {
-        color: rgb(134, 134, 134);
-        max-width: 200px;
-    }
-}
-.containertext2 {
-    display: none;
-    padding-left: 60px;
-    position: absolute;
-    transition: 0.3s;
-    top: 4%;
-    h3 {
-        color: white;
-    }
-    p {
-        color: rgb(134, 134, 134);
-        max-width: 200px;
-    }
-}
-.containertext3 {
-    display: none;
-    padding-left: 60px;
-    position: absolute;
-    transition: 0.3s;
-    top: 4%;
+    border-left: white 1px solid;
+    margin-left: 19px;
+    height: 120px;
+    border-style: dashed;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
     h3 {
         color: white;
     }

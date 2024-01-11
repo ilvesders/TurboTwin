@@ -273,11 +273,11 @@ label i {
     gap: 26px;
     margin-left: 26px;
     margin-right: 26px;
-    padding-bottom: 1000px;
+    padding-bottom: 100px;
 }
 
 .container21123 {
-    margin-top: 400px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -288,7 +288,7 @@ label i {
 
 .containeradvantages {
     margin-top: 70px;
-    height: 1200px;
+    height: 900px;
     width: 100%;
     display: flex;
 }
@@ -388,5 +388,16 @@ label i {
         letter-spacing: -1.28px;
         line-height: 100%;
         margin-top: 10px;
+    }
+}
+
+.containerbrandheader {
+    color: white;
+    font-family: manrope;
+    margin-left: 70px;
+    h1 {
+        font-size: 65px;
+        font-weight: 500;
+        letter-spacing: -3.4px;
     }
 }

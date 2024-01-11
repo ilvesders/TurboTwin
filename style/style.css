@@ -284,4 +284,65 @@ label i {
   gap: 26px;
   margin-left: 26px;
   margin-right: 26px;
+}
+
+.containeradvantages {
+  margin-top: 40px;
+  height: 1200px;
+  width: 100%;
+  display: flex;
+}
+
+.container-leftadvantages {
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.container-header {
+  background-color: #111111;
+  width: 428px;
+  height: 165px;
+  border-radius: 25px;
+}
+
+.container-1adv {
+  margin-top: 15px;
+  background-color: #111111;
+  width: 428px;
+  height: 645px;
+  border-radius: 25px;
+}
+
+.containertopadv {
+  display: flex;
+}
+
+.container-rightadvantages {
+  margin-top: 50px;
+}
+
+.container-2adv {
+  background-color: #111111;
+  width: 418px;
+  height: 417px;
+  border-radius: 25px;
+}
+
+.container-3adv {
+  margin-left: 15px;
+  background-color: #111111;
+  width: 468px;
+  height: 417px;
+  border-radius: 25px;
+}
+
+.containerbottomadv {
+  margin-top: 15px;
+}
+
+.container-4adv {
+  background-color: #111111;
+  width: 900px;
+  height: 393px;
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */

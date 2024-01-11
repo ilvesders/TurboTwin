@@ -77,23 +77,26 @@ label i {
   font-family: Manrope;
 }
 .container-left-main h1 {
-  max-width: 400px;
-  font-size: 50px;
+  max-width: 420px;
+  font-size: 58px;
   line-height: 0.8;
+  font-weight: 400;
 }
 .container-left-main p {
   margin-top: 10px;
   max-width: 220px;
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(102, 102, 102);
   line-height: 1;
 }
 
 .container-right-main {
+  position: absolute;
+  top: 100px;
   padding-top: 5px;
   color: white;
   height: 170px;
-  margin-left: 43%;
+  margin-left: 75%;
   margin-right: 40px;
   font-family: Manrope;
   background-color: #111111;
@@ -104,7 +107,9 @@ label i {
   border-radius: 30px;
 }
 .container-right-main h3 {
-  font-size: 20px;
+  padding-top: 6px;
+  font-size: 24px;
+  font-weight: 400;
 }
 .container-right-main p {
   padding-top: 10px;
@@ -116,7 +121,7 @@ label i {
 
 .containermain {
   display: flex;
-  padding-top: 3%;
+  padding-top: 3.5%;
 }
 
 .containerbtn {

@@ -304,7 +304,11 @@ label i {
     background-color: #111111;
     width: 428px;
     height: 645px;
-    border-radius: 25px;
+    border-radius: 35px;
+    img {
+        width: 100%;
+        margin-top: 3px;
+    }
 }
 .containertopadv {
     display: flex;
@@ -316,7 +320,11 @@ label i {
     background-color: #111111;
     width: 418px;
     height: 417px;
-    border-radius: 25px;
+    border-radius: 35px;
+    img {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 
 .container-3adv {
@@ -324,7 +332,11 @@ label i {
     background-color: #111111;
     width: 468px;
     height: 417px;
-    border-radius: 25px;
+    border-radius: 35px;
+    img {
+        width: 100%;
+        margin-top: 8px;
+    }
 }
 .containerbottomadv {
     margin-top: 15px;
@@ -334,5 +346,9 @@ label i {
     background-color: #111111;
     width: 900px;
     height: 393px;
-    border-radius: 25px;
+    border-radius: 35px;
+    img {
+        width: 100%;
+        margin-top: 8px;
+    }
 }

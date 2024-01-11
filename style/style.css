@@ -10,7 +10,7 @@ body {
   height: 100vh;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: #0c0c0c;
+  background-color: #090909;
 }
 
 nav {
@@ -287,7 +287,7 @@ label i {
 }
 
 .containeradvantages {
-  margin-top: 40px;
+  margin-top: 70px;
   height: 1200px;
   width: 100%;
   display: flex;
@@ -304,8 +304,18 @@ label i {
   height: 165px;
   border-radius: 25px;
 }
+.container-header h2 {
+  font-size: 56px;
+  color: white;
+  font-family: Manrope;
+  padding-left: 20px;
+  line-height: 0.85;
+  padding-top: 7%;
+  font-weight: 300;
+}
 
 .container-1adv {
+  position: relative;
   margin-top: 15px;
   background-color: #111111;
   width: 428px;
@@ -326,6 +336,7 @@ label i {
 }
 
 .container-2adv {
+  position: relative;
   background-color: #111111;
   width: 418px;
   height: 417px;
@@ -337,6 +348,7 @@ label i {
 }
 
 .container-3adv {
+  position: relative;
   margin-left: 15px;
   background-color: #111111;
   width: 468px;
@@ -353,6 +365,7 @@ label i {
 }
 
 .container-4adv {
+  position: relative;
   background-color: #111111;
   width: 900px;
   height: 393px;
@@ -361,4 +374,25 @@ label i {
 .container-4adv img {
   width: 100%;
   margin-top: 8px;
+}
+
+.text-block {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  color: white;
+  font-family: Manrope;
+}
+.text-block h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
+.text-block p {
+  color: rgb(134, 134, 134);
+  font-weight: 300;
+  font-size: 22px;
+  max-width: 248px;
+  letter-spacing: -1.28px;
+  line-height: 100%;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

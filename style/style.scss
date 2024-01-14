@@ -389,6 +389,7 @@ label i {
     }
 }
 
+
 @media (max-width: 2560px) {
     nav {
         font-size: 52px;
@@ -611,6 +612,18 @@ label i {
             line-height: 100%;
             margin-top: 10px;
         }
+    }
+    .containerbrandheader {
+        margin-left: 140px;
+        h1 {
+            font-size: 125px;
+        }
+    }
+    .circle {
+        width: 105px;
+        height: 105px;
+        padding: 55px;
+        border-radius: 55px;
     }
 }
 
@@ -840,5 +853,17 @@ label i {
             line-height: 100%;
             margin-top: 10px;
         }
+    }
+    .containerbrandheader {
+        margin-left: 70px;
+        h1 {
+            font-size: 65px;
+        }
+    }
+    .circle {
+        width: 65px;
+        height: 65px;
+        padding: 25px;
+        border-radius: 35px;
     }
 }

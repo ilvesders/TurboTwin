@@ -420,6 +420,7 @@ label i {
             margin-top: 20px;
             max-width: 400px;
             font-size: 40px;
+            line-height: 0.85;
         }
     }
     .container-right-main {
@@ -442,6 +443,46 @@ label i {
             padding-top: 10px;
             font-size: 30px;
             max-width: 600px;
+        }
+    }
+    .containerbtn {
+        margin-top: 40px;
+        padding: 16px;
+        border-radius: 40px;
+        width: 250px;
+        padding-left: 51px;
+        padding-right: 51px;
+        border: 2px solid white;
+        a {
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+    .containerbtn:focus, .containerbtn:hover {
+        border: 2px solid white;
+        background-color:#090909;
+        a {
+            color: white;
+        }
+    }
+    .containerbtn2 {
+        margin-top: 25px;
+        padding: 16px;
+        border-radius: 40px;
+        width: 250px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 2px solid white;
+        a {
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+    .containerbtn2:focus, .containerbtn2:hover {
+        border: 2px solid white;
+        background-color:white;
+        a {
+            color: #090909;
         }
     }
 }
@@ -471,7 +512,7 @@ label i {
         }
         p {
             margin-top: 10px;
-            max-width: 220px;
+            max-width: 210px;
             font-size: 20px;
         }
     }
@@ -501,6 +542,46 @@ label i {
             max-width: 260px;
             color: rgb(134, 134, 134);
             line-height: 0.95;
+        }
+    }
+    .containerbtn {
+        margin-top: 20px;
+        padding: 8px;
+        border-radius: 40px;
+        width: 90px;
+        padding-left: 51px;
+        padding-right: 51px;
+        border: 1px solid white;
+        a {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .containerbtn:focus, .containerbtn:hover {
+        border: 1px solid white;
+        background-color:#090909;
+        a {
+            color: white;
+        }
+    }
+    .containerbtn2 {
+        margin-top: 10px;
+        padding: 6px;
+        border-radius: 40px;
+        width: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 1px solid white;
+        a {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .containerbtn2:focus, .containerbtn2:hover {
+        border: 1px solid white;
+        background-color:white;
+        a {
+            color: #090909;
         }
     }
 }

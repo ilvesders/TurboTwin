@@ -275,10 +275,11 @@ label i {
     height: 900px;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .container-leftadvantages{
-    margin: 20px;
+    margin: 10px;
     margin-top: 50px;
 }
 .container-header {
@@ -313,6 +314,7 @@ label i {
     display: flex;
 }
 .container-rightadvantages{
+    margin: 10px;
     margin-top: 50px;
 }
 .container-2adv {

@@ -28,6 +28,10 @@ nav a {
   font-family: Manrope;
   margin-left: 20px;
 }
+nav img {
+  width: 200px;
+  margin-left: -10px;
+}
 
 .list {
   display: flex;

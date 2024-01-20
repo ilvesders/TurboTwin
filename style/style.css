@@ -680,6 +680,45 @@ label i {
   margin-left: 15px;
 }
 
+.containerservicesweoffer {
+  display: flex;
+  margin-top: 100px;
+}
+
+.containerfrst {
+  display: flex;
+}
+
+.containerleftswo {
+  width: 852px;
+  background-color: #111111;
+  border-radius: 25px;
+  height: 245px;
+  margin: 10px;
+}
+.containerleftswo img {
+  width: 100%;
+}
+
+.containerrightswo {
+  width: 486px;
+  background-color: #111111;
+  border-radius: 25px;
+  height: 245px;
+  margin: 10px;
+}
+.containerrightswo h2 {
+  font-size: 56px;
+  color: white;
+  font-family: Manrope;
+  padding-left: 20px;
+  line-height: 0.85;
+  padding-top: 1%;
+  font-weight: 300;
+  line-height: 1.1;
+  max-width: 350px;
+}
+
 @media (max-width: 2560px) {
   nav {
     font-size: 52px;

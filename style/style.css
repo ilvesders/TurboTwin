@@ -692,7 +692,7 @@ label i {
 .containerleftswo {
   width: 852px;
   background-color: #111111;
-  border-radius: 25px;
+  border-radius: 30px;
   height: 245px;
   margin: 10px;
 }
@@ -703,7 +703,7 @@ label i {
 .containerrightswo {
   width: 486px;
   background-color: #111111;
-  border-radius: 25px;
+  border-radius: 30px;
   height: 245px;
   margin: 10px;
 }
@@ -713,7 +713,7 @@ label i {
   font-family: Manrope;
   padding-left: 20px;
   line-height: 0.85;
-  padding-top: 1%;
+  padding-top: 3%;
   font-weight: 300;
   line-height: 1.1;
   max-width: 350px;

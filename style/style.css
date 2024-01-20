@@ -398,8 +398,8 @@ label i {
 }
 .containerbrandheader h1 {
   font-size: 65px;
-  font-weight: 500;
   letter-spacing: -3.4px;
+  font-weight: 300;
 }
 
 .containermainfooter {
@@ -681,7 +681,6 @@ label i {
 }
 
 .containerservicesweoffer {
-  display: flex;
   margin-top: 100px;
 }
 
@@ -691,7 +690,6 @@ label i {
 
 .containerleftswo {
   width: 852px;
-  background-color: #111111;
   border-radius: 30px;
   height: 245px;
   margin: 10px;
@@ -704,7 +702,7 @@ label i {
   width: 486px;
   background-color: #111111;
   border-radius: 30px;
-  height: 245px;
+  height: 240px;
   margin: 10px;
 }
 .containerrightswo h2 {
@@ -717,6 +715,34 @@ label i {
   font-weight: 300;
   line-height: 1.1;
   max-width: 350px;
+}
+
+.containersecondo {
+  display: flex;
+  margin-top: -8px;
+}
+
+.containerservices {
+  width: 439px;
+  height: 217px;
+  background-color: #111111;
+  border-radius: 30px;
+  margin: 10px;
+  font-family: manrope;
+}
+.containerservices h3 {
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.containerservices p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 2560px) {

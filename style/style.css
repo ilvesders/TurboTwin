@@ -633,6 +633,22 @@ label i {
   color: black;
 }
 
+.textdcr {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.textdcr:focus, .textdcr:hover {
+  text-decoration: underline;
+}
+
+.containerlineft {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 30px;
+  margin-top: -35px;
+}
+
 @media (max-width: 2560px) {
   nav {
     font-size: 52px;

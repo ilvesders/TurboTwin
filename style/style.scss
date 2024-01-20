@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-color:#090909;
 }
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +24,7 @@ nav {
         text-decoration: none;
         color:rgb(206, 206, 206);
         font-family: Manrope;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     img {
         width: 200px;
@@ -525,6 +526,7 @@ label i {
 
 .containerfooter {
     display: flex;
+    align-items: end;
     margin: 30px;
     justify-content: space-between;
 }

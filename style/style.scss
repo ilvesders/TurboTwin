@@ -506,7 +506,7 @@ label i {
     transition: 0.3s;
 }
 .btnft:focus, .btnft:hover {
-    border: white 1px solid;
+    border: rgba(136, 136, 136, 0.2) 1px solid;
     color: white;
     background-color: #0b0b0b;
 }
@@ -555,6 +555,8 @@ label i {
 }
 
 .containup1 {
+    margin-top: 10px;
+    margin-bottom: 12px;
     font-family: manrope;
     color: white;
     font-weight: 300;
@@ -573,6 +575,7 @@ label i {
     margin-bottom: 0px;
     width: 342px;    
     color: rgba(255, 255, 255, 0.2);
+    margin-right: -5px;
 }
 
 .btnft1 {
@@ -583,15 +586,15 @@ label i {
     display: flex;
     padding: 16px;
     margin-top: 20px;
-    width: 100px;
+    width: 80px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 18px;
     text-decoration: none;
     font-family: manrope;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     border: 1px solid white;
     transition: 0.3s;
     cursor: pointer;
@@ -601,7 +604,7 @@ label i {
 }
 
 .btnft1:focus, .btnft1:hover {
-    border: white 1px solid;
+    border: rgba(136, 136, 136, 0.2) 1px solid;
     color: white;
     background-color: #090909;
 }

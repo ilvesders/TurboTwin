@@ -208,6 +208,38 @@ label i {
   margin-left: 15px;
 }
 
+.containeraboutushdandp {
+  display: flex;
+  justify-content: center;
+}
+
+.containeraboutushdandp2 {
+  flex-direction: column;
+  text-align: center;
+}
+
+.containerhdaboutus {
+  color: white;
+  font-family: manrope;
+  margin-bottom: 15px;
+}
+.containerhdaboutus h1 {
+  font-size: 55px;
+  letter-spacing: -3.4px;
+  font-weight: 400;
+}
+
+.containerpaboutus {
+  color: white;
+  font-family: manrope;
+  font-size: 13px;
+  max-width: 500px;
+}
+.containerpaboutus p {
+  line-height: 0.9;
+  font-weight: 300;
+}
+
 @media (max-width: 2560px) {
   nav {
     font-size: 52px;

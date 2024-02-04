@@ -193,7 +193,8 @@ label i {
     height: 40px;
     border-radius: 50%;
     background-color: rgb(134, 134, 134);
-    position: relative;
+    position: relative ;
+    margin-top: -80px;
     text-align: center;
     img {
         color: black;
@@ -232,12 +233,18 @@ label i {
         height: 40px;
     }
 }
+.containercirclesinthecolum1.active,
+.containercirclesinthecolum2.active,
+.containercirclesinthecolum3.active {
+    background-color: rgb(211, 211, 211);
+}
 
 .containertext1 {
     padding-left: 60px;
     position: absolute;
     transition: 0.3s;
-    top: 4%;
+    margin-top: -80px;
+    top: 1%;
     border-left: white 1px solid;
     margin-left: 19px;
     height: 120px;
@@ -814,6 +821,23 @@ label i {
     margin-top: -70px;
     z-index: -1;
     border-radius: 20px;
+}
+
+#info-container {
+    margin-top: -100px;
+    padding: 20px;
+    max-width: 180px;
+    color: white;
+    font-size: 15px;
+    font-family: manrope;
+    line-height: 0.95;
+    display: none;
+    h2 {
+        margin-bottom: 20px;
+    }
+    p {
+        color: rgb(134, 134, 134);
+    }
 }
 
 @media (max-width: 2560px) {

@@ -15,3 +15,12 @@ function showInfo(info) {
 document.getElementById("open-model-btn").addEventListener("click",function(){
     document.getElementById("my-model").classList.add("open")
 })
+
+document.getElementById("close-my-model-btn").addEventListener("click",function(){
+    document.getElementById("my-model").classList.remove("open")
+})
+window.addEventListener('keydown', (e) => {
+    if (e.key === "Escape") {
+        document.getElementById("my-model").classList.remove("open")
+    }
+})

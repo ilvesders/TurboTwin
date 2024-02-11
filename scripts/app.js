@@ -11,3 +11,7 @@ function showInfo(info) {
 
     infoContainer.style.display = 'block';
 }
+
+document.getElementById("open-model-btn").addEventListener("click",function(){
+    document.getElementById("my-model").classList.add("open")
+})

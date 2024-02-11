@@ -20,16 +20,65 @@
         <div class="menu">
             <ul class="list">
                 <li><a class="navlist" href="">FAQ</a></li>
-                <li><button class="navlist" class="navbttn" href="">Contact</button></li>
+                <li><button id="open-model-btn" class="navlist"  href="">Contact</button></li>
                 <li><a class="navlist" href="./pages/About Us.html">About Us</a></li>
                 <label  for="toggler"><i class="bi bi-list"></i></label>
                 <input type="checkbox" id="toggler" name="">
             </ul>
         </div>
     </nav>
-    <div class="modal">
+    <div class="modal" id="my-model">
         <div class="modal__box">
-            <img width="189px" src="./images/logocn.png" alt="">
+            <button class="closebtn" id="close-my-model-btn"><i class="bi bi-x"></i></button>
+            <img src="./images/logocn.png" alt="">
+
+            <div class="containerftheadermd">
+                <p>Contact Us</p>
+            </div>
+            <div class="containerdopinfomd">
+                <p>Fill in this form and send us an e-mail</p>
+            </div>
+
+            <div class="wrapper"> 
+
+                <div class="container-ftin1">
+                    <form class="form"></form>
+
+                        <div class="form-groupcon">
+                            <input class="form-inputcon1" placeholder="First name" >
+                            <label class="form-label"></label>
+                        </div>
+
+                        <div class="form-groupcon">
+                            <input class="form-inputcon11" placeholder="Last name" >
+                            <label class="form-label"></label>
+                        </div>
+                </div>
+
+                <div class="container-ftin1">
+                    <div class="form-groupcon">
+                        <input class="form-inputcon" placeholder="E-mail" >
+                        <label class="form-label"></label>
+                    </div>
+                </div>
+
+                <div class="container-ftin1">
+                    <div class="form-groupcon">
+                        <input class="form-inputcon2" placeholder="Message" >
+                        <label class="form-label"></label>
+                    </div>
+                </div>
+
+                <div class="container-ftin2">
+                        <a class="btnftcon" href="">Send</a>
+                </div>  
+
+            </div>
+            <div class="containerlinkscon">
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+            </div>
         </div>
     </div>
     <main>

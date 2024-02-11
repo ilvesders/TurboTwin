@@ -26,6 +26,16 @@ nav {
         font-family: Manrope;
         margin-left: 5px;
     }
+    button {
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        color:rgb(206, 206, 206);
+        font-family: Manrope;
+        margin-left: 5px;
+    }
     img {
         width: 200px;
     }
@@ -1091,6 +1101,9 @@ label i {
         label i {
             font-size:30px;
             padding-right: 40px;
+        }
+        button {
+            font-size: 12px;
         }
     }
     .container-left-main {

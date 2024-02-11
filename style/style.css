@@ -28,6 +28,16 @@ nav a {
   font-family: Manrope;
   margin-left: 5px;
 }
+nav button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+  font-family: Manrope;
+  margin-left: 5px;
+}
 nav img {
   width: 200px;
 }
@@ -1118,6 +1128,9 @@ label i {
   nav label i {
     font-size: 30px;
     padding-right: 40px;
+  }
+  nav button {
+    font-size: 12px;
   }
   .container-left-main {
     padding-left: 35px;

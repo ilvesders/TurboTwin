@@ -33,3 +33,7 @@ document.getElementById("my-model").addEventListener('click', event => {
     if (event._isClickWithInModal) return;
     event.currentTarget.classList.remove('open');
 });
+
+function changePhoto(photoUrl) {
+    document.getElementById('displayed-photo').src = photoUrl;
+}

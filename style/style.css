@@ -1043,6 +1043,119 @@ label i {
   color: rgb(134, 134, 134);
 }
 
+.containervisual {
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.containerfrsblvis {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 585px;
+  width: 1321px;
+  background-color: #111111;
+  border-radius: 20px;
+}
+.containerfrsblvis img {
+  position: absolute;
+  margin-top: 10%;
+}
+.containerfrsblvis img {
+  max-width: 100%;
+}
+
+.visualheader {
+  position: absolute;
+  color: white;
+  font-size: 58px;
+  top: 5px;
+  left: 20px;
+  font-family: manrope;
+  font-weight: 300;
+}
+
+.container4blocksvis {
+  position: relative;
+  background-color: #111111;
+  width: 655px;
+  height: 205px;
+  margin-top: 15px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 20px;
+}
+.container4blocksvis h3 {
+  position: absolute;
+  font-size: 28px;
+  color: white;
+  font-family: manrope;
+  font-weight: 300;
+  top: 10px;
+  left: 18px;
+}
+.container4blocksvis p {
+  position: absolute;
+  font-size: 16px;
+  color: white;
+  font-family: manrope;
+  font-weight: 300;
+  top: 55px;
+  left: 18px;
+  max-width: 500px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.container12visual {
+  display: flex;
+  justify-content: center;
+}
+
+.container34visual {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 20px;
+}
+
+.buttons button {
+  text-align: center;
+  margin-top: 20px;
+  padding: 13px;
+  background-color: transparent;
+  border-radius: 40px;
+  width: 200px;
+  border: 1px solid white;
+  padding-left: 31px;
+  padding-right: 31px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.buttons button p {
+  font-family: Manrope;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.buttons button:focus, .buttons button:hover {
+  border: 1px solid white;
+  background-color: white;
+}
+.buttons button:focus p, .buttons button:hover p {
+  color: black;
+}
+
 @media (max-width: 2560px) {
   nav {
     font-size: 52px;

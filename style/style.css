@@ -873,6 +873,8 @@ label i {
 .containerleftswo {
   width: 852px;
   border-radius: 30px;
+  background-color: #111111;
+  border-radius: 30px;
   height: 245px;
   margin: 10px;
 }

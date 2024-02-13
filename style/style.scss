@@ -903,6 +903,9 @@ label i {
     justify-content: end;
 }
 .containerimg {
+    position: absolute;
+    bottom: -70px;
+    right: -18px;
     width: 1041px;
     height: 280px;
     margin-bottom: 70px;
@@ -916,12 +919,14 @@ label i {
 }
 .containerinov {
     display: flex;
+    position: relative;
     justify-content: space-between;
     background-color: #111111;
     border-radius: 30px;
     width: 1341px;
-    height: 180px;
+    height: 480px;
     margin-bottom: 15px;
+    margin-bottom: 90px;
 }
 
 .uppertechno {
@@ -964,6 +969,7 @@ label i {
     font-family: manrope;
     color: rgba(255, 255, 255, 0.50);
     margin: 20px;
+    margin-left: -20px;
     line-height: 1;
     font-size: 15px;
     padding-bottom: 20px;
@@ -975,14 +981,10 @@ label i {
 
 .containercontin {
     display: flex;
-    align-items: flex-end;
     position: absolute;
+    bottom: 10px;
     left: 21px;
-    height: 350px;
-    width: 1341px;
-    background-color: #111111;
     margin-top: -70px;
-    z-index: -1;
     border-radius: 20px;
 }
 

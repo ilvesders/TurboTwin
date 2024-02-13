@@ -1070,9 +1070,11 @@ label i {
 .visualheader {
   position: absolute;
   color: white;
+  line-height: 0.9;
   font-size: 58px;
-  top: 5px;
+  top: 23px;
   left: 20px;
+  max-width: 500px;
   font-family: manrope;
   font-weight: 300;
 }
@@ -1122,7 +1124,8 @@ label i {
 
 .buttons {
   position: absolute;
-  bottom: 20px;
+  top: 10px;
+  right: 20px;
 }
 
 .buttons button {
@@ -1131,10 +1134,10 @@ label i {
   padding: 13px;
   background-color: transparent;
   border-radius: 40px;
-  width: 200px;
+  width: 190px;
   border: 1px solid white;
-  padding-left: 31px;
-  padding-right: 31px;
+  padding-left: 21px;
+  padding-right: 21px;
   transition: 0.3s;
   cursor: pointer;
 }

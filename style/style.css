@@ -1048,6 +1048,7 @@ label i {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 .containerfrsblvis {
@@ -1079,72 +1080,28 @@ label i {
   font-weight: 300;
 }
 
-.container4blocksvis {
-  position: relative;
-  background-color: #111111;
-  width: 655px;
-  height: 205px;
-  margin-top: 15px;
-  margin-left: 8px;
-  margin-right: 8px;
-  border-radius: 20px;
-}
-.container4blocksvis h3 {
-  position: absolute;
-  font-size: 28px;
-  color: white;
-  font-family: manrope;
-  font-weight: 300;
-  top: 10px;
-  left: 18px;
-}
-.container4blocksvis p {
-  position: absolute;
-  font-size: 16px;
-  color: white;
-  font-family: manrope;
-  font-weight: 300;
-  top: 55px;
-  left: 18px;
-  max-width: 500px;
-  color: #ffffff;
-  opacity: 0.5;
-}
-
-.container12visual {
-  display: flex;
-  justify-content: center;
-}
-
-.container34visual {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .buttons {
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 20px;
 }
 
 .buttons button {
   text-align: center;
   margin-top: 20px;
-  padding: 13px;
+  padding: 0px;
   background-color: transparent;
   border-radius: 40px;
-  width: 190px;
+  height: 69px;
+  width: 180px;
   border: 1px solid white;
-  padding-left: 21px;
-  padding-right: 21px;
   transition: 0.3s;
   cursor: pointer;
 }
 .buttons button p {
   font-family: Manrope;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   font-weight: 500px;
   transition: 0.3s;

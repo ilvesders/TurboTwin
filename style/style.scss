@@ -615,6 +615,7 @@ label i {
 
 .containerfrst {
     display: flex;
+    justify-content: center;
 }
 
 .containerleftswo {
@@ -650,6 +651,7 @@ label i {
 .containersecondo {
     display: flex;
     margin-top: -8px;
+    justify-content: center;
 }
 .containerservices {
     width: 439px;
@@ -886,6 +888,7 @@ label i {
 //footer
 .containermainfooter {
     display: flex;
+    justify-content: center;
 }
 
 .containerleftft {
@@ -1173,3 +1176,198 @@ label i {
     }
 }
 //footer
+@media screen and (max-width: 2560px) {
+    //nav
+nav {
+        font-size: 25px;
+        padding: 20px;
+}
+
+nav img {
+        width: 350px;
+}
+
+label i {
+        font-size: 45px;
+        padding-right: 60px;
+}
+
+.list {
+        gap: 70px;
+        font-size: 20px; 
+}
+
+.list button {
+        font-size: 20px; 
+}
+    //nav
+    //contact us button
+.modal__box {
+        width: 45%; 
+        height: 80%;
+        max-width: 1000px;
+        max-height: 1200px;
+}
+.form-groupcon .form-inputcon2 {
+    padding: 30px;
+    width: 880px;    
+    padding-bottom: 220px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 15px;
+} 
+.form-groupcon .form-inputcon {
+    padding: 30px;
+    width: 880px; 
+    font-size: 18px; 
+    border-radius: 30px;
+    margin-top: 15px;
+} 
+.btnftcon {
+    padding: 30px;
+    width: 880px; 
+    margin-left: 2px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.form-groupcon .form-inputcon11 {
+    padding: 30px;
+    width: 405px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.form-groupcon .form-inputcon1 {
+    padding: 30px;
+    width: 405px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.containerlinkscon {
+    gap: 10px;
+    bottom: 33px;
+    right: 30px;
+    i {
+    font-size: 32px;
+    margin: 5px;
+    }
+}
+.closebtn {
+    font-size: 45px;
+}
+.containerftheadermd {
+    font-size: 82px;
+}
+.modal__box {
+    img {
+        width: 270px;
+    }
+}
+.containerdopinfomd {
+    font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+    //contact us button
+}
+
+@media screen and (max-width: 1440px) {
+//nav
+    nav {
+        --nav-font-size: 20px;
+        --nav-padding: 20px;
+}
+
+    nav img {
+        width: 200px;
+}
+
+    label i {
+        font-size: 30px;
+        padding-right: 60px;
+}
+
+    .list {
+        gap: 50px;
+        font-size: 12px;
+}
+
+    .list button {
+        font-size: 12px;
+}
+//nav
+//contact us button
+.modal__box {
+    width: 45%; 
+    height: 80%;
+    max-width: 800px; 
+    max-height: 1000px;
+}
+.form-groupcon .form-inputcon2 {
+    width: 578px;    
+    padding: 18px;
+    padding-bottom: 180px;
+    font-size: 12px;
+    border-radius: 18px;
+    margin-top: 10px;
+} 
+.form-groupcon .form-inputcon {
+    width: 578px;   
+    padding: 18px;
+    font-size: 12px;
+    border-radius: 18px;
+    margin-top: 10px;
+} 
+.btnftcon {
+    width: 580px;
+    margin-left: 5px;
+    padding: 18px;
+    font-size: 12px;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+.form-groupcon .form-inputcon11 {
+    padding: 20px;
+    width: 265px;
+    padding: 18px;
+    font-size: 12px;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+.form-groupcon .form-inputcon1 {
+    padding: 20px;
+    width: 265px;
+    padding: 18px;
+    font-size: 12px;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+.containerlinkscon {
+    gap: 10px;
+    bottom: 13px;
+    right: 30px;
+    i {
+    font-size: 23px;
+    margin: 5px;
+    }
+}
+.closebtn {
+    font-size: 30px;
+}
+.containerftheadermd {
+    font-size: 62px;
+}
+.modal__box {
+    img {
+        width: 200px;
+    }
+}
+.containerdopinfomd {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+//contact us button
+}

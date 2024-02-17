@@ -534,39 +534,4 @@ label i {
 .containeruser p {
   font-size: 16px;
   margin-left: 10px;
-}
-
-@media (max-width: 2560px) {
-  nav {
-    font-size: 52px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  nav .list {
-    font-weight: 300;
-    letter-spacing: -1.28px;
-    gap: 90px;
-    font-size: 26px;
-  }
-  nav label i {
-    font-size: 49px;
-    padding-right: 40px;
-  }
-}
-@media (max-width: 1440px) {
-  nav {
-    font-size: 17px;
-    margin-left: 10px;
-    margin-top: 5px;
-  }
-  nav .list {
-    font-weight: 300;
-    letter-spacing: -1.28px;
-    gap: 50px;
-    font-size: 12px;
-  }
-  nav label i {
-    font-size: 30px;
-    padding-right: 40px;
-  }
 }/*# sourceMappingURL=aboutus.css.map */

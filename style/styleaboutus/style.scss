@@ -273,6 +273,338 @@ label i {
     }
 }
 //contact us button
+//about us
+.containeraboutushdandp {
+    display: flex;
+    justify-content: center;
+}
+
+.containeraboutushdandp2 {
+    flex-direction: column;
+    text-align: center;
+}
+
+.containerhdaboutus {
+    color: white;
+    font-family: manrope;
+    margin-bottom: 15px;
+    h1 {
+        font-size: 55px;
+        letter-spacing: -3.4px;
+        font-weight: 400;
+    }
+}
+
+.containerpaboutus {
+    color: white;
+    font-family: manrope;
+    font-size: 13px;
+    max-width: 500px;
+    margin-bottom: 40px;
+    p {
+        line-height: 0.9;
+        font-weight: 300;
+    }
+}
+
+.containerwhychoseus {
+    display: flex;
+    justify-content: center;
+}
+
+.containerlefttopwhy {
+    display: flex;
+}
+.containerlefttopwhy1 {
+    background-color: #111111;
+    width: 390px;
+    height: 209px;
+    border-radius: 30px;
+    margin: 10px;
+    margin-left: 60px;
+    h1 {
+        font-family: manrope;
+        color: white ;
+        padding-left: 35px;
+        padding-top: 30px;
+        max-width: 80%;
+        font-size: 55px;
+        font-weight: 400;
+        line-height: 0.95;
+    }
+}
+.containerlefttopwhy2 {
+    background-color: #111111;
+    width: 390px;
+    height: 209px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.container1linewhy{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.container2linewhy{
+    display: flex;
+    justify-content: center;
+}
+.container3linewhy{
+    display: flex;
+    justify-content: center;
+}
+
+.btn1tp {
+    color: white;
+    text-decoration: none;
+    font-family: manrope;
+    display: flex;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 4px; 
+    font-weight: 300;
+    font-size: 13px;  
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn2tp {
+    color: white;
+    text-decoration: none;
+    font-family: manrope;
+    display: flex;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 4px;  
+    font-weight: 300;
+    font-size: 13px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn3tp {
+    color: white;
+    text-decoration: none;
+    font-family: manrope;
+    display: flex;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 4px; 
+    font-weight: 300;
+    font-size: 13px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn4tp {
+    color: white;
+    text-decoration: none;
+    font-family: manrope;
+    display: flex;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 4px; 
+    font-weight: 300;
+    font-size: 13px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn5tp {
+    color: white;
+    text-decoration: none;
+    font-family: manrope;
+    display: flex;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 4px;  
+    font-weight: 300;
+    font-size: 13px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn6tp {
+    color: white;
+    text-decoration: none;
+    font-family: manrope;
+    display: flex;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 40px;
+    padding: 8px;
+    margin: 4px;  
+    font-weight: 300;
+    font-size: 13px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn1tp:focus, .btn1tp:hover {
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+.btn2tp:focus, .btn2tp:hover {
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+.btn3tp:focus, .btn3tp:hover {
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+.btn4tp:focus, .btn4tp:hover {
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+.btn5tp:focus, .btn5tp:hover {
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+.btn6tp:focus, .btn6tp:hover {
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+
+.containerleftbottonwhy {
+    background-color: #111111;
+    width: 805px;
+    height: 247px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-left: 40px;
+    p {
+        font-family: manrope;
+        color: white ;
+        padding-left: 35px;
+        padding-top: 30px;
+        max-width: 720px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+.containerrightwhy {
+    background-color: #111111;
+    width: 499px;
+    height: 476px;
+    border-radius: 30px;
+    margin: 10px;
+    img {
+        width: 100%;
+    }
+}
+//about us
+//review
+.containerreviewdandp {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerhdreview {
+    color: white;
+    font-family: manrope;
+    margin-bottom: 15px;
+    h1 {
+        font-size: 55px;
+        letter-spacing: -3.4px;
+        font-weight: 400;
+    }
+}
+
+.container3reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.containercuberev {
+    background-color: #111111;
+    height: 282px;
+    width: 416px;
+    border-radius: 30px;
+    margin: 10px;
+    p {
+        font-family: manrope;
+        font-weight: 300;
+        color: white;
+        margin: 20px;
+        font-size: 18px;
+    }
+}
+
+.containerstarsholder {
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    img {
+        width: 20px;
+    }
+}
+
+.containeruser {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    p {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+}
+.containeruser2 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 45px;
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    p {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+}
+//review
 //footer
 .containermainfooter {
     display: flex;

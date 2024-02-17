@@ -26,11 +26,6 @@ nav img {
   width: 200px;
 }
 
-.navlist1 {
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
-}
-
 .list {
   display: flex;
   list-style: none;

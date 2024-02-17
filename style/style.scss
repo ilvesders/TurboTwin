@@ -1177,6 +1177,7 @@ label i {
     }
 }
 //footer
+
 @media screen and (max-width: 2560px) {
     //nav
 nav {
@@ -1299,7 +1300,6 @@ label i {
     h3 {
         padding-top: 24px;
         font-size: 48px;
-        font-weight: 400;
     }
     p {
         padding-top: 10px;
@@ -1314,17 +1314,9 @@ label i {
     width: 250px;
     padding-left: 51px;
     padding-right: 51px;
-    border: 2px solid white;
     a {
         font-size: 28px;
         font-weight: 500;
-    }
-}
-.containerbtn:focus, .containerbtn:hover {
-    border: 2px solid white;
-    background-color:#090909;
-    a {
-        color: white;
     }
 }
 .containerbtn2 {
@@ -1334,30 +1326,16 @@ label i {
     width: 250px;
     padding-left: 30px;
     padding-right: 30px;
-    border: 2px solid white;
     a {
         font-size: 28px;
         font-weight: 500;
-    }
-}
-.containerbtn2:focus, .containerbtn2:hover {
-    border: 2px solid white;
-    background-color:white;
-    a {
-        color: #090909;
     }
 }
 .containercirclesinthecolum1{
     margin-bottom: 40px;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background-color: rgb(134, 134, 134);
-    position: relative;
-    text-align: center;
     img {
-        color: black;
-        position: relative;
         width: 45px;
         height: 55px;
     }
@@ -1366,13 +1344,7 @@ label i {
     margin-bottom: 40px;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background-color: rgb(134, 134, 134);
-    position: relative;
-    text-align: center;
     img {
-        color: black;
-        position: relative;
         width: 60px;
         height: 60px;
     }
@@ -1381,13 +1353,7 @@ label i {
     margin-bottom: 40px;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background-color:rgb(134, 134, 134);
-    position: relative;
-    text-align: center;
     img {
-        color: black;
-        position: relative;
         width: 55px;
         height: 60px;
     }
@@ -1399,7 +1365,6 @@ label i {
 .containertext1 {
     padding-left: 60px;
     top: 5%;
-    border-left: white 2px solid;
     margin-left: 30px;
     height: 200px;
     border-style: dashed;
@@ -1412,14 +1377,9 @@ label i {
     padding: 20px;
     max-width: 320px;
     font-size: 27px;
-    font-family: manrope;
     line-height: 0.95;
-    display: none;
     h2 {
         margin-bottom: 20px;
-    }
-    p {
-        color: rgb(134, 134, 134);
     }
 }
 //main
@@ -1500,329 +1460,282 @@ label i {
 }
 
 @media screen and (max-width: 1440px) {
-//nav
-    nav {
-        --nav-font-size: 20px;
-        --nav-padding: 20px;
-}
-
-    nav img {
-        width: 200px;
-}
-
-    label i {
-        font-size: 30px;
-        padding-right: 60px;
-}
-
-    .list {
-        gap: 50px;
+    //nav
+        nav {
+            --nav-font-size: 20px;
+            --nav-padding: 20px;
+    }
+    
+        nav img {
+            width: 200px;
+    }
+    
+        label i {
+            font-size: 30px;
+            padding-right: 60px;
+    }
+    
+        .list {
+            gap: 50px;
+            font-size: 12px;
+    }
+    
+        .list button {
+            font-size: 12px;
+    }
+    //nav
+    //contact us button
+    .modal__box {
+        width: 630px; 
+        height: 680px;
+    }
+    .form-groupcon .form-inputcon2 {
+        width: 578px;    
+        padding: 18px;
+        padding-bottom: 180px;
         font-size: 12px;
-}
-
-    .list button {
-        font-size: 12px;
-}
-//nav
-//contact us button
-.modal__box {
-    width: 630px; 
-    height: 680px;
-}
-.form-groupcon .form-inputcon2 {
-    width: 578px;    
-    padding: 18px;
-    padding-bottom: 180px;
-    font-size: 12px;
-    border-radius: 18px;
-    margin-top: 10px;
-} 
-.form-groupcon .form-inputcon {
-    width: 578px;   
-    padding: 18px;
-    font-size: 12px;
-    border-radius: 18px;
-    margin-top: 10px;
-} 
-.btnftcon {
-    width: 580px;
-    margin-left: 5px;
-    padding: 18px;
-    font-size: 12px;
-    border-radius: 18px;
-    margin-top: 20px;
-}
-.form-groupcon .form-inputcon11 {
-    padding: 20px;
-    width: 265px;
-    padding: 18px;
-    font-size: 12px;
-    border-radius: 18px;
-    margin-top: 10px;
-}
-.form-groupcon .form-inputcon1 {
-    padding: 20px;
-    width: 265px;
-    padding: 18px;
-    font-size: 12px;
-    border-radius: 18px;
-    margin-top: 10px;
-}
-.containerlinkscon {
-    gap: 10px;
-    bottom: 23px;
-    right: 30px;
-    i {
-    font-size: 23px;
-    margin: 5px;
-    }
-}
-.closebtn {
-    font-size: 30px;
-}
-.containerftheadermd {
-    font-size: 62px;
-}
-.modal__box {
-    img {
-        width: 200px;
-    }
-}
-.containerdopinfomd {
-    font-size: 16px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
-//contact us button
-//main
-.container-left-main {
-    padding-left: 35px;
-    margin-left: 0px;
-    h1 {
-        max-width: 420px;
-        font-size: 58px;
-    }
-    p {
+        border-radius: 18px;
         margin-top: 10px;
-        max-width: 210px;
-        font-size: 20px;
-    }
-}
-.container-right-main {
-    position: absolute;
-    top: 100px;
-    padding-top: -10px;
-    color: white;
-    height: 170px;
-    margin-left: 75%;
-    margin-right: 40px;
-    font-family: Manrope;
-    background-color:  #111111;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-radius: 30px;
-    h3 {
-        position: absolute;
-        padding-top: 10px;
-        font-size: 24px;
-        font-weight: 400;
-    }
-    p {
-        padding-top: 50px;
-        font-size: 16px;
-        max-width: 260px;
-        line-height: 0.95;
-    }
-}
-.containerbtn {
-    margin-top: 20px;
-    padding: 8px;
-    border-radius: 40px;
-    width: 90px;
-    padding-left: 51px;
-    padding-right: 51px;
-    border: 1px solid white;
-    a {
-        font-size: 14px;
-        font-weight: 500;
-    }
-}
-.containerbtn:focus, .containerbtn:hover {
-    border: 1px solid white;
-    background-color:#090909;
-    a {
-        color: white;
-    }
-}
-.containerbtn2 {
-    margin-top: 10px;
-    padding: 6px;
-    border-radius: 40px;
-    width: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 1px solid white;
-    a {
-        font-size: 14px;
-        font-weight: 500;
-    }
-}
-.containerbtn2:focus, .containerbtn2:hover {
-    border: 1px solid white;
-    background-color:white;
-    a {
-        color: #090909;
-    }
-}
-.containercirclesinthecolum1{
-    margin-bottom: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(134, 134, 134);
-    position: relative;
-    text-align: center;
-    img {
-        color: black;
-        position: relative;
-        width: 25px;
-        height: 40px;
-    }
-}
-.containercirclesinthecolum2{
-    margin-bottom: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(134, 134, 134);
-    position: relative;
-    text-align: center;
-    img {
-        color: black;
-        position: relative;
-        width: 30px;
-        height: 40px;
-    }
-}
-.containercirclesinthecolum3{
-    margin-bottom: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color:rgb(134, 134, 134);
-    position: relative;
-    text-align: center;
-    img {
-        color: black;
-        position: relative;
-        width: 30px;
-        height: 40px;
-    }
-}
-.container123 {
-    margin-top: 30px;
-    margin-left: 77%;
-}
-.containertext1 {
-    padding-left: 60px;
-    top: 4%;
-    border-left: white 1px solid;
-    margin-left: 19px;
-    height: 120px;
-    border-style: dashed;
-    border-bottom: none;
-    border-right: none;
-    border-top: none;
-}
-#info-container {
-    margin-top: -100px;
-    padding: 20px;
-    max-width: 180px;
-    color: white;
-    font-size: 15px;
-    font-family: manrope;
-    line-height: 0.95;
-    display: none;
-    h2 {
-        margin-bottom: 20px;
-    }
-    p {
-        color: rgb(134, 134, 134);
-    }
-}
-//main
-//advantages
-.containeradvantages {
-    margin-top: 220px;
-    height: 900px;
-}
-.container-header {
-    width: 428px;
-    height: 165px;
-    border-radius: 25px;
-    h2 {
-        font-size: 56px;
-        padding-left: 20px;
-        line-height: 0.85;
-        padding-top: 7%;
-        font-weight: 300;
-    }
-}
-.container-1adv {
-    margin-top: 15px;
-    width: 428px;
-    height: 645px;
-    border-radius: 35px;
-    img {
-        width: 100%;
-        margin-top: 3px;
-    }
-}
-.container-2adv {
-    width: 418px;
-    height: 417px;
-    border-radius: 35px;
-    img {
-        width: 100%;
+    } 
+    .form-groupcon .form-inputcon {
+        width: 578px;   
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 10px;
+    } 
+    .btnftcon {
+        width: 580px;
+        margin-left: 5px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
         margin-top: 20px;
     }
-}
-.container-3adv {
-    margin-left: 15px;
-    width: 468px;
-    height: 417px;
-    border-radius: 35px;
-    img {
-        width: 100%;
-        margin-top: 8px;
-    }
-}
-.container-4adv {
-    width: 900px;
-    height: 393px;
-    border-radius: 35px;
-    img {
-        width: 100%;
-        margin-top: 8px;
-    }
-}
-    .text-block {
-    top: 25px;
-    left: 30px;
-    h3 {
-        font-size: 22px;
-        font-weight: 300;
-    }
-    p {
-        font-weight: 300;
-        font-size: 22px;
-        max-width: 248px;
-        letter-spacing: -1.28px;
-        line-height: 100%;
+    .form-groupcon .form-inputcon11 {
+        padding: 20px;
+        width: 265px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
         margin-top: 10px;
     }
-}
-//advantages
-}
+    .form-groupcon .form-inputcon1 {
+        padding: 20px;
+        width: 265px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 10px;
+    }
+    .containerlinkscon {
+        gap: 10px;
+        bottom: 23px;
+        right: 30px;
+        i {
+        font-size: 23px;
+        margin: 5px;
+        }
+    }
+    .closebtn {
+        font-size: 30px;
+    }
+    .containerftheadermd {
+        font-size: 62px;
+    }
+    .modal__box {
+        img {
+            width: 200px;
+        }
+    }
+    .containerdopinfomd {
+        font-size: 16px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    //contact us button
+    //main
+    .container-left-main {
+        padding-left: 35px;
+        margin-left: 0px;
+        h1 {
+            max-width: 420px;
+            font-size: 58px;
+        }
+        p {
+            margin-top: 10px;
+            max-width: 210px;
+            font-size: 20px;
+        }
+    }
+    .container-right-main {
+        top: 100px;
+        padding-top: -10px;
+        height: 170px;
+        margin-left: 75%;
+        margin-right: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-radius: 30px;
+        h3 {
+            position: absolute;
+            padding-top: 10px;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        p {
+            padding-top: 50px;
+            font-size: 16px;
+            max-width: 260px;
+            line-height: 0.95;
+        }
+    }
+    .containerbtn {
+        margin-top: 20px;
+        padding: 8px;
+        border-radius: 40px;
+        width: 90px;
+        padding-left: 51px;
+        padding-right: 51px;
+        a {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .containerbtn2 {
+        margin-top: 10px;
+        padding: 6px;
+        border-radius: 40px;
+        width: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        a {
+            font-size: 14px;
+        }
+    }
+    .containercirclesinthecolum1{
+        margin-bottom: 20px;
+        width: 40px;
+        height: 40px;
+        img {
+            width: 25px;
+            height: 40px;
+        }
+    }
+    .containercirclesinthecolum2{
+        margin-bottom: 20px;
+        width: 40px;
+        height: 40px;
+        img {
+            width: 30px;
+            height: 40px;
+        }
+    }
+    .containercirclesinthecolum3{
+        margin-bottom: 20px;
+        width: 40px;
+        height: 40px;
+        img {
+            width: 30px;
+            height: 40px;
+        }
+    }
+    .container123 {
+        margin-top: 30px;
+        margin-left: 77%;
+    }
+    .containertext1 {
+        padding-left: 60px;
+        top: 4%;
+        margin-left: 19px;
+        height: 120px;
+        border-style: dashed;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+    }
+    #info-container {
+        margin-top: -100px;
+        padding: 20px;
+        max-width: 180px;
+        font-size: 15px;
+        line-height: 0.95;
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            color: rgb(134, 134, 134);
+        }
+    }
+    //main
+    //advantages
+    .containeradvantages {
+        margin-top: 220px;
+        height: 900px;
+    }
+    .container-header {
+        width: 428px;
+        height: 165px;
+        border-radius: 25px;
+        h2 {
+            font-size: 56px;
+            padding-left: 20px;
+            line-height: 0.85;
+            padding-top: 7%;
+        }
+    }
+    .container-1adv {
+        margin-top: 15px;
+        width: 428px;
+        height: 645px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 3px;
+        }
+    }
+    .container-2adv {
+        width: 418px;
+        height: 417px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .container-3adv {
+        margin-left: 15px;
+        width: 468px;
+        height: 417px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 8px;
+        }
+    }
+    .container-4adv {
+        width: 900px;
+        height: 393px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 8px;
+        }
+    }
+        .text-block {
+        top: 25px;
+        left: 30px;
+        h3 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 22px;
+            max-width: 248px;
+            letter-spacing: -1.28px;
+            margin-top: 10px;
+        }
+    }
+    //advantages
+    }

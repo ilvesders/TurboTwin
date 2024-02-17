@@ -46,6 +46,7 @@ nav {
         width: 200px;
     }
 }
+
 label i {
     font-size:30px;
     padding-right: 40px;
@@ -99,6 +100,7 @@ label i {
     color: rgb(206, 206, 206);
     padding-right: 40px;
 }
+
 //nav
 //contact us button
 .modal {
@@ -116,6 +118,7 @@ label i {
     opacity: 0;
     transition: opacity  .4s, visibility .4s;
 }
+
 .modal__box {
     position: relative;
     width: 631px;
@@ -130,10 +133,12 @@ label i {
         width: 200px;
     }
 }
+
 .modal.open {
     visibility: visible;
     opacity: 1;
 }
+
 .closebtn {
     border: none;
     background-color: transparent;
@@ -145,9 +150,11 @@ label i {
     font-size: 30px;
     opacity: 0.5;
 }
+
 .closebtn:hover {
     opacity: 1;
 } 
+
 .containerftheadermd {
     font-size: 62px;
     font-weight: 400;
@@ -155,6 +162,7 @@ label i {
     margin-bottom: 3px;
     color: white;
 }
+
 .containerdopinfomd {
     font-size: 17px;
     margin-left: 20px;
@@ -162,12 +170,15 @@ label i {
     font-family: manrope;
     margin-bottom: 40px;
 }
+
 .container-ftin1 {
     display: flex;
 }
+
 .container-ftin1 {
     justify-content: center;
 }
+
 .form-groupcon .form-inputcon2 {
     display: flex;
     padding: 18px;
@@ -182,6 +193,7 @@ label i {
     width: 588px;    
     color: rgba(255, 255, 255, 0.2);
 } 
+
 .form-groupcon .form-inputcon {
     display: flex;
     padding: 20px;
@@ -193,6 +205,7 @@ label i {
     width: 588px;
     color: rgba(255, 255, 255, 0.20);
 }
+
 .form-groupcon .form-inputcon1 {
     display: flex;
     padding: 20px;
@@ -205,6 +218,7 @@ label i {
     width: 270px;
     color: rgba(255, 255, 255, 0.20);
 }
+
 .form-groupcon .form-inputcon11 {
     display: flex;
     margin-top: 10px;
@@ -218,6 +232,7 @@ label i {
     width: 270px;
     color: rgba(255, 255, 255, 0.20);
 }
+
 .btnftcon {
     position: relative;
     top: -10px;
@@ -239,11 +254,13 @@ label i {
     cursor: pointer;
     transition: 0.3s;
 }
+
 .btnftcon:focus, .btnftcon:hover {
     border: rgba(136, 136, 136, 0.2) 1px solid;
     color: white;
     background-color: #0b0b0b;
 }
+
 .containerlinkscon {
     position: absolute;
     display: flex;
@@ -262,6 +279,7 @@ label i {
     display: flex;
     padding-top: 3.5%;
 }
+
 .container-left-main {
     //
     padding-left: 35px;
@@ -288,6 +306,7 @@ label i {
         //
     }
 }
+
 .containerbtn {
     text-align: center;
     margin-top: 20px;
@@ -310,6 +329,7 @@ label i {
         cursor: pointer;
     }
 }
+
 .containerbtn:focus, .containerbtn:hover {
     border: 1px solid white;
     background-color:transparent;
@@ -317,6 +337,7 @@ label i {
         color: white;
     }
 }
+
 .containerbtn2 {
     text-align: center;
     margin-top: 10px;
@@ -339,6 +360,7 @@ label i {
         cursor: pointer;
     }
 }
+
 .containerbtn2:focus, .containerbtn2:hover {
     border: 1px solid white;
     background-color:white;
@@ -346,6 +368,7 @@ label i {
         color: black;
     }
 }
+
 .container-right-main {
     position: absolute;
     top: 100px;
@@ -374,6 +397,7 @@ label i {
         line-height: 0.95;
     }
 }
+
 .container123 {
     transform: translateY(-45%);
     margin-left: 77%;
@@ -382,6 +406,7 @@ label i {
     font-family: Manrope;
     position: absolute;
 }
+
 .containertext1 {
     padding-left: 60px;
     position: absolute;
@@ -396,6 +421,7 @@ label i {
     border-right: none;
     border-top: none;
 }
+
 .containercirclesinthecolum1{
     margin-bottom: 20px;
     width: 40px;
@@ -412,6 +438,7 @@ label i {
         height: 40px;
     }
 }
+
 .containercirclesinthecolum2{
     margin-bottom: 20px;
     width: 40px;
@@ -427,6 +454,7 @@ label i {
         height: 40px;
     }
 }
+
 .containercirclesinthecolum3{
     margin-bottom: 20px;
     width: 40px;
@@ -442,11 +470,13 @@ label i {
         height: 40px;
     }
 }
+
 .containercirclesinthecolum1.active,
 .containercirclesinthecolum2.active,
 .containercirclesinthecolum3.active {
     background-color: rgb(211, 211, 211);
 }
+
 #info-container {
     margin-top: -100px;
     padding: 20px;
@@ -472,10 +502,12 @@ label i {
     display: flex;
     justify-content: center;
 }
+
 .container-leftadvantages{
     margin: 10px;
     margin-top: 50px;
 }
+
 .container-header {
     background-color: #111111;
     width: 428px;
@@ -491,6 +523,7 @@ label i {
         font-weight: 300;
     }
 }
+
 .container-1adv {
     position: relative;
     margin-top: 15px;
@@ -503,6 +536,7 @@ label i {
         margin-top: 3px;
     }
 }
+
 .text-block {
     position: absolute;
     top: 25px;
@@ -523,13 +557,16 @@ label i {
         margin-top: 10px;
     }
 }
+
 .container-rightadvantages{
     margin: 10px;
     margin-top: 50px;
 }
+
 .containertopadv {
     display: flex;
 }
+
 .container-2adv {
     position: relative;
     background-color: #111111;
@@ -541,6 +578,7 @@ label i {
         margin-top: 20px;
     }
 }
+
 .container-3adv {
     position: relative;
     margin-left: 15px;
@@ -553,9 +591,11 @@ label i {
         margin-top: 8px;
     }
 }
+
 .containerbottomadv {
     margin-top: 15px;
 }
+
 .container-4adv {
     position: relative;
     background-color: #111111;
@@ -568,3 +608,74 @@ label i {
     }
 }
 //advantages
+//services we offer
+.containerservicesweoffer {
+    margin-top: 100px;
+}
+
+.containerfrst {
+    display: flex;
+}
+
+.containerleftswo {
+    width: 852px;
+    border-radius: 30px;
+    background-color: #111111;
+    border-radius: 30px;
+    height: 245px;
+    margin: 10px;
+    img {
+        width: 100%;
+    }
+}
+
+.containerrightswo {
+    width: 486px;
+    background-color: #111111;
+    border-radius: 30px;
+    height: 240px;
+    margin: 10px;
+    h2 {
+        font-size: 56px;
+        color: white;
+        font-family: Manrope;
+        padding-left: 20px;
+        line-height: 0.85;
+        padding-top: 3%;
+        font-weight: 300;
+        line-height: 1.1;
+        max-width: 350px;
+    }
+}
+.containersecondo {
+    display: flex;
+    margin-top: -8px;
+}
+.containerservices {
+    width: 439px;
+    height: 217px;
+    background-color: #111111;
+    border-radius: 30px;
+    margin: 10px;
+    font-family: manrope;
+    margin-bottom: 70px;
+    h3 {
+        color: white;
+        font-size: 26px;
+        font-weight: 300;
+        margin-left: 25px;
+        line-height: 0.9;
+        margin-top: 30px;
+        max-width: 300px;
+    }
+    p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.50);
+        font-weight: 300;
+        margin-left: 25px;
+        line-height: 1.1;
+        margin-top: 10px;
+        max-width: 365px;
+    }
+}
+//services we offer

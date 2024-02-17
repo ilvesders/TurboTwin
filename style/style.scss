@@ -719,3 +719,77 @@ label i {
 }
 
 //brands we service
+//visual parts
+.containervisual {
+    margin-top: -20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.containerfrsblvis {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 585px;
+    width: 1321px;
+    background-color: #111111;
+    border-radius: 20px;
+    img {
+        position: absolute;
+        margin-top: 8%;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+.visualheader {
+    position: absolute; 
+    color: white;
+    line-height: 0.9;
+    font-size: 58px;
+    top: 23px;
+    left: 20px;
+    max-width: 500px;
+    font-family: manrope;
+    font-weight: 300;
+}
+
+.buttons {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.buttons button {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 40px;
+    height: 69px;
+    width: 180px;
+    border: 1px solid white;
+    transition: 0.3s;
+    cursor: pointer;
+    p {
+        font-family: Manrope;
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: 500px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+.buttons button:focus, .buttons button:hover {
+    border: 1px solid white;
+    background-color:white;
+    p {
+        color: black;
+    }
+}
+//visual parts

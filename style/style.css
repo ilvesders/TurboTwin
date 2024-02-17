@@ -1176,10 +1176,8 @@ label i {
     font-size: 20px;
   }
   .modal__box {
-    width: 45%;
-    height: 80%;
-    max-width: 1000px;
-    max-height: 1200px;
+    width: 950px;
+    height: 950px;
   }
   .form-groupcon .form-inputcon2 {
     padding: 30px;
@@ -1239,7 +1237,228 @@ label i {
   .containerdopinfomd {
     font-size: 20px;
     margin-left: 45px;
+    margin-bottom: 60px;
+  }
+  .container-left-main {
+    padding-left: 35px;
+    margin-left: 60px;
+  }
+  .container-left-main h1 {
+    max-width: 800px;
+    font-size: 110px;
+  }
+  .container-left-main p {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 40px;
+    line-height: 0.85;
+  }
+  .container-right-main {
+    top: 180px;
+    padding-top: 5px;
+    height: 340px;
+    margin-left: 75%;
+    margin-right: 40px;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    border-radius: 50px;
+  }
+  .container-right-main h3 {
+    padding-top: 24px;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .container-right-main p {
+    padding-top: 10px;
+    font-size: 30px;
+    max-width: 600px;
+  }
+  .containerbtn {
+    margin-top: 40px;
+    padding: 16px;
+    border-radius: 40px;
+    width: 250px;
+    padding-left: 51px;
+    padding-right: 51px;
+    border: 2px solid white;
+  }
+  .containerbtn a {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .containerbtn:focus, .containerbtn:hover {
+    border: 2px solid white;
+    background-color: #090909;
+  }
+  .containerbtn:focus a, .containerbtn:hover a {
+    color: white;
+  }
+  .containerbtn2 {
+    margin-top: 25px;
+    padding: 16px;
+    border-radius: 40px;
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid white;
+  }
+  .containerbtn2 a {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .containerbtn2:focus, .containerbtn2:hover {
+    border: 2px solid white;
+    background-color: white;
+  }
+  .containerbtn2:focus a, .containerbtn2:hover a {
+    color: #090909;
+  }
+  .containercirclesinthecolum1 {
+    margin-bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+  }
+  .containercirclesinthecolum1 img {
+    color: black;
+    position: relative;
+    width: 45px;
+    height: 55px;
+  }
+  .containercirclesinthecolum2 {
+    margin-bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+  }
+  .containercirclesinthecolum2 img {
+    color: black;
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  .containercirclesinthecolum3 {
+    margin-bottom: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+  }
+  .containercirclesinthecolum3 img {
+    color: black;
+    position: relative;
+    width: 55px;
+    height: 60px;
+  }
+  .container123 {
+    margin-top: -30px;
+    margin-left: 78%;
+  }
+  .containertext1 {
+    padding-left: 60px;
+    top: 5%;
+    border-left: white 2px solid;
+    margin-left: 30px;
+    height: 200px;
+    border-style: dashed;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+  }
+  #info-container {
+    margin-top: -120px;
+    padding: 20px;
+    max-width: 320px;
+    font-size: 27px;
+    font-family: manrope;
+    line-height: 0.95;
+    display: none;
+  }
+  #info-container h2 {
     margin-bottom: 20px;
+  }
+  #info-container p {
+    color: rgb(134, 134, 134);
+  }
+  .containeradvantages {
+    margin-top: 480px;
+    height: 1500px;
+  }
+  .container-header {
+    width: 800px;
+    height: 240px;
+    border-radius: 55px;
+  }
+  .container-header h2 {
+    font-size: 85px;
+    padding-left: 20px;
+    line-height: 0.85;
+    padding-top: 6%;
+    font-weight: 300;
+  }
+  .container-1adv {
+    margin-top: 15px;
+    width: 800px;
+    height: 1200px;
+    border-radius: 55px;
+  }
+  .container-1adv img {
+    width: 100%;
+    margin-top: 3px;
+  }
+  .container-2adv {
+    width: 800px;
+    height: 657px;
+    border-radius: 55px;
+  }
+  .container-2adv img {
+    width: 100%;
+    margin-top: -100px;
+  }
+  .container-3adv {
+    margin-left: 15px;
+    width: 839px;
+    height: 657px;
+    border-radius: 55px;
+  }
+  .container-3adv img {
+    width: 100%;
+    margin-top: -75px;
+  }
+  .container-4adv {
+    width: 1654px;
+    height: 783px;
+    border-radius: 55px;
+  }
+  .container-4adv img {
+    width: 100%;
+    margin-top: 75px;
+  }
+  .text-block {
+    top: 30px;
+    left: 35px;
+  }
+  .text-block h3 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+  .text-block p {
+    font-weight: 300;
+    font-size: 36px;
+    max-width: 400px;
+    letter-spacing: -1.28px;
+    line-height: 100%;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -1262,10 +1481,8 @@ label i {
     font-size: 12px;
   }
   .modal__box {
-    width: 45%;
-    height: 80%;
-    max-width: 800px;
-    max-height: 1000px;
+    width: 630px;
+    height: 680px;
   }
   .form-groupcon .form-inputcon2 {
     width: 578px;
@@ -1308,7 +1525,7 @@ label i {
   }
   .containerlinkscon {
     gap: 10px;
-    bottom: 13px;
+    bottom: 23px;
     right: 30px;
   }
   .containerlinkscon i {
@@ -1327,6 +1544,233 @@ label i {
   .containerdopinfomd {
     font-size: 16px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+  }
+  .container-left-main {
+    padding-left: 35px;
+    margin-left: 0px;
+  }
+  .container-left-main h1 {
+    max-width: 420px;
+    font-size: 58px;
+  }
+  .container-left-main p {
+    margin-top: 10px;
+    max-width: 210px;
+    font-size: 20px;
+  }
+  .container-right-main {
+    position: absolute;
+    top: 100px;
+    padding-top: -10px;
+    color: white;
+    height: 170px;
+    margin-left: 75%;
+    margin-right: 40px;
+    font-family: Manrope;
+    background-color: #111111;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 30px;
+  }
+  .container-right-main h3 {
+    position: absolute;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .container-right-main p {
+    padding-top: 50px;
+    font-size: 16px;
+    max-width: 260px;
+    line-height: 0.95;
+  }
+  .containerbtn {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 40px;
+    width: 90px;
+    padding-left: 51px;
+    padding-right: 51px;
+    border: 1px solid white;
+  }
+  .containerbtn a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .containerbtn:focus, .containerbtn:hover {
+    border: 1px solid white;
+    background-color: #090909;
+  }
+  .containerbtn:focus a, .containerbtn:hover a {
+    color: white;
+  }
+  .containerbtn2 {
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 40px;
+    width: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid white;
+  }
+  .containerbtn2 a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .containerbtn2:focus, .containerbtn2:hover {
+    border: 1px solid white;
+    background-color: white;
+  }
+  .containerbtn2:focus a, .containerbtn2:hover a {
+    color: #090909;
+  }
+  .containercirclesinthecolum1 {
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+  }
+  .containercirclesinthecolum1 img {
+    color: black;
+    position: relative;
+    width: 25px;
+    height: 40px;
+  }
+  .containercirclesinthecolum2 {
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+  }
+  .containercirclesinthecolum2 img {
+    color: black;
+    position: relative;
+    width: 30px;
+    height: 40px;
+  }
+  .containercirclesinthecolum3 {
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    text-align: center;
+  }
+  .containercirclesinthecolum3 img {
+    color: black;
+    position: relative;
+    width: 30px;
+    height: 40px;
+  }
+  .container123 {
+    margin-top: 30px;
+    margin-left: 77%;
+  }
+  .containertext1 {
+    padding-left: 60px;
+    top: 4%;
+    border-left: white 1px solid;
+    margin-left: 19px;
+    height: 120px;
+    border-style: dashed;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+  }
+  #info-container {
+    margin-top: -100px;
+    padding: 20px;
+    max-width: 180px;
+    color: white;
+    font-size: 15px;
+    font-family: manrope;
+    line-height: 0.95;
+    display: none;
+  }
+  #info-container h2 {
+    margin-bottom: 20px;
+  }
+  #info-container p {
+    color: rgb(134, 134, 134);
+  }
+  .containeradvantages {
+    margin-top: 220px;
+    height: 900px;
+  }
+  .container-header {
+    width: 428px;
+    height: 165px;
+    border-radius: 25px;
+  }
+  .container-header h2 {
+    font-size: 56px;
+    padding-left: 20px;
+    line-height: 0.85;
+    padding-top: 7%;
+    font-weight: 300;
+  }
+  .container-1adv {
+    margin-top: 15px;
+    width: 428px;
+    height: 645px;
+    border-radius: 35px;
+  }
+  .container-1adv img {
+    width: 100%;
+    margin-top: 3px;
+  }
+  .container-2adv {
+    width: 418px;
+    height: 417px;
+    border-radius: 35px;
+  }
+  .container-2adv img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .container-3adv {
+    margin-left: 15px;
+    width: 468px;
+    height: 417px;
+    border-radius: 35px;
+  }
+  .container-3adv img {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .container-4adv {
+    width: 900px;
+    height: 393px;
+    border-radius: 35px;
+  }
+  .container-4adv img {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .text-block {
+    top: 25px;
+    left: 30px;
+  }
+  .text-block h3 {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .text-block p {
+    font-weight: 300;
+    font-size: 22px;
+    max-width: 248px;
+    letter-spacing: -1.28px;
+    line-height: 100%;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

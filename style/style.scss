@@ -887,6 +887,10 @@ label i {
 }
 //in house innovations
 //footer
+.container-ftin2 {
+    display: flex;
+    justify-content: center;
+}
 .containermainfooter {
     display: flex;
     justify-content: center;
@@ -923,6 +927,7 @@ label i {
     font-size: 12px;
     margin-left: 65px;
 }
+
 
 .container-ftin1 {
     display: flex;
@@ -1208,6 +1213,7 @@ label i {
         width: 950px; 
         height: 950px;
 }
+
 .form-groupcon .form-inputcon2 {
     padding: 30px;
     width: 880px;    
@@ -1633,6 +1639,81 @@ label i {
     }
     //in house innovations
     //footer
+    .containerrightft {
+        width: 1200px;
+        height: 1200px;
+        border-radius: 55px;
+        margin-right: 50px;
+        img {
+            width: 1200px;
+            height: 1200px;
+            border-radius: 55px;
+        }
+    }
+    .containerleftft {
+        border-radius: 55px;
+        padding-top: 70px;
+        margin-right: 35px;
+        margin-left: 30px;
+        height: 1130px;
+        width: 1200px;
+        h2{
+            font-weight: 400;
+        }
+        p {
+            margin-bottom: 40px;
+        }
+    }
+    .containerftheader {
+        font-size: 72px;
+        margin-left: 40px;
+        margin-bottom: 3px;
+    }
+    
+    .containerdopinfo {
+        font-size: 26px;
+        margin-left: 85px;
+    }
+    .form-group .form-input1 {
+        padding: 30px;
+        width: 485px;
+        font-size: 20px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+    
+    .form-group .form-input11 {
+        padding: 30px;
+        width: 485px;
+        font-size: 20px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+    
+    .form-group .form-input {
+        padding: 30px;
+        width: 1040px; 
+        font-size: 20px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+    
+    .form-group .form-input2 {
+        padding: 30px;
+        width: 1040px;   
+        padding-bottom: 320px;
+        font-size: 20px;
+        border-radius: 30px;
+        margin-top: 15px;  
+    } 
+    .btnft {
+        padding: 30px;
+        width: 1040px; 
+        margin-left: 2px;
+        font-size: 20px;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
     .cotainerrightft {
         p{
             font-size: 20px;
@@ -2156,6 +2237,89 @@ label i {
     }
     //in house innovations
     //footer
+    .containerrightft {
+        width: 617px;
+        height: 617px;
+        border-radius: 35px;
+        margin-right: 50px;
+        img {
+            width: 657px;
+            height: 657px;
+            border-radius: 35px;
+        }
+    }
+    .containerleftft {
+        border-radius: 25px;
+        padding-top: 70px;
+        margin-right: 15px;
+        margin-left: 30px;
+        height: 587px;
+        width: 657px;
+        h2{
+            font-weight: 400;
+        }
+        p {
+            margin-bottom: 40px;
+        }
+    }
+    .containerftheader {
+        font-size: 32px;
+        margin-left: 40px;
+        margin-bottom: 3px;
+    }
+    
+    .containerdopinfo {
+        font-size: 12px;
+        margin-left: 65px;
+    }
+    .form-group .form-input1 {
+        padding: 18px;
+        margin: 10px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 230px;
+    }
+    
+    .form-group .form-input11 {
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 230px;
+    }
+    
+    .form-group .form-input {
+        padding: 18px;
+        margin: 10px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 508px;
+    }
+    
+    .form-group .form-input2 {
+        padding: 18px;
+        margin: 10px;
+        padding-bottom: 140px;
+        border-radius: 18px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        width: 508px;    
+    } 
+    .btnft {
+        top: -10px;
+        padding: 15px;
+        margin-left: 52px;
+        margin-top: 20px;
+        width: 517px;
+        gap: 10px;
+        border-radius: 18px;
+        font-size: 13px;
+        font-weight: 500;
+    }
     .cotainerrightft {
         p{
             font-size: 12px;

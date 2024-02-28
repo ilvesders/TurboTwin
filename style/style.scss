@@ -1384,31 +1384,30 @@ label i {
 }
 //main
 //advantages
-
 .containeradvantages {
     margin-top: 480px;
     height: 1500px;
 }
 .container-header {
     width: 800px;
-    height: 240px;
+    height: 280px;
     border-radius: 55px;
     h2 {
-        font-size: 85px;
-        padding-left: 20px;
+        font-size: 90px;
+        padding-left: 40px;
         line-height: 0.85;
-        padding-top: 6%;
+        padding-top: 7.5%;
         font-weight: 300;
     }
 }
 .container-1adv {
     margin-top: 15px;
     width: 800px;
-    height: 1200px;
+    height: 1165px;
     border-radius: 55px;
     img {
         width: 100%;
-        margin-top: 3px;
+        margin-top: -38px;
     }
 }
 .container-2adv {
@@ -1457,6 +1456,51 @@ label i {
     }
 }
 //advantages
+    //services we offer
+    .containerleftswo {
+        width: 1646px;
+        border-radius: 55px;
+        height: 476px;
+        margin: 15px;
+        img {
+            width: 100%;
+        }
+    }
+    
+    .containerrightswo {
+        width: 800px;
+        border-radius: 55px;
+        height: 476px;
+        margin: 15px;
+        h2 {
+            margin-top: 10px;
+            margin-left: 22px;
+            font-size: 120px;
+            max-width: 750px;
+            font-weight: 400;
+        }
+    }
+    .containerservices {
+        width: 805px;
+        height: 386px;
+        border-radius: 55px;
+        margin: 15px;
+        font-family: manrope;
+        margin-bottom: 70px;
+        h3 {
+            font-size: 56px;
+            margin-left: 35px;
+            margin-top: 40px;
+            max-width: 600px;
+        }
+        p {
+            font-size: 29px;
+            margin-left: 35px;
+            margin-top: 20px;
+            max-width: 660px;
+        }
+    }
+    //services we offer
 }
 
 @media screen and (max-width: 1440px) {
@@ -1738,4 +1782,56 @@ label i {
         }
     }
     //advantages
+    //services we offer
+    .containerleftswo {
+        width: 852px;
+        border-radius: 30px;
+        height: 245px;
+        margin: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    
+    .containerrightswo {
+        width: 486px;
+        border-radius: 30px;
+        height: 240px;
+        margin: 10px;
+        h2 {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 300;
+            font-size: 56px;
+            max-width: 350px;
+        }
+    }
+    .containerservices {
+        width: 439px;
+        height: 217px;
+        background-color: #111111;
+        border-radius: 30px;
+        margin: 10px;
+        font-family: manrope;
+        margin-bottom: 70px;
+        h3 {
+            color: white;
+            font-size: 26px;
+            font-weight: 300;
+            margin-left: 25px;
+            line-height: 0.9;
+            margin-top: 30px;
+            max-width: 300px;
+        }
+        p {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.50);
+            font-weight: 300;
+            margin-left: 25px;
+            line-height: 1.1;
+            margin-top: 10px;
+            max-width: 365px;
+        }
+    }
+    //services we offer
     }

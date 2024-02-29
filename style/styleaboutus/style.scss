@@ -1128,7 +1128,67 @@ margin-bottom: 60px;
 .container1linewhy{
     margin-top: 35px;
 }
+.containerreviewdandp {
+    margin-top: 120px;
+}
     //about us
+        //review
+        .containerhdreview {
+            margin-bottom: 15px;
+            h1 {
+                font-size: 105px;
+            }
+        }
+        .containercuberev {
+            height: 482px;
+            width: 812px;
+            border-radius: 45px;
+            margin: 20px;
+            p {
+                font-weight: 300;
+                margin: 30px;
+                max-width: 680px;
+                font-size: 32px;
+            }
+        }
+        
+        .containerstarsholder {
+            height: 40px;
+            width: 220px;
+            margin-top: 40px;
+            margin-left: 40px;
+            img {
+                width: 40px;
+            }
+        }
+        
+        .containeruser {
+            position: absolute;
+            margin-left: 30px;
+            bottom: -390px;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            p {
+                font-size: 32px;
+                margin-left: 10px;
+            }
+        }
+        .containeruser2 {
+            position: absolute;
+            margin-left: 30px;
+            bottom: -390px;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            p {
+                font-size: 32px;
+                margin-left: 10px;
+            }
+        }
+        //review
     //footer
     .cotainerrightft {
         p{
@@ -1433,7 +1493,70 @@ margin-bottom: 60px;
     .container1linewhy{
         margin-top: 15px;
     }
+    .containerreviewdandp {
+        margin-top: 40px;
+    }
     //about us
+    //review
+    .containerhdreview {
+        color: white;
+        font-family: manrope;
+        margin-bottom: 15px;
+        h1 {
+            font-size: 55px;
+            letter-spacing: -3.4px;
+            font-weight: 400;
+        }
+    }
+    .containercuberev {
+        height: 282px;
+        width: 416px;
+        border-radius: 30px;
+        margin: 10px;
+        p {
+            font-weight: 300;
+            margin: 20px;
+            font-size: 18px;
+        }
+    }
+    
+    .containerstarsholder {
+        height: 20px;
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+        img {
+            width: 20px;
+        }
+    }
+    
+    .containeruser {
+        position: absolute;
+        margin-left: 20px;
+        bottom: -240px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+        p {
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    }
+    .containeruser2 {
+        position: absolute;
+        margin-left: 20px;
+        bottom: -240px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+        p {
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    }
+    //review
     //footer
     .cotainerrightft {
         p{

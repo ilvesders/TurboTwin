@@ -1389,6 +1389,9 @@ label i {
 }
 //main
 //advantages
+.containerservicesweoffer {
+    margin-top: 100px;
+}
 .containeradvantages {
     margin-top: 480px;
     height: 1500px;
@@ -1537,6 +1540,13 @@ label i {
     }
     //brands we services
     //visual parts
+    .containervisual {
+        margin-top: -20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 90px;
+    }
     .containerfrsblvis {
         height: 1085px;
         width: 2471px;
@@ -1988,7 +1998,7 @@ label i {
         height: 900px;
     }
     .container-header {
-        width: 428px;
+        width: 458px;
         height: 165px;
         border-radius: 25px;
         h2 {
@@ -2000,12 +2010,12 @@ label i {
     }
     .container-1adv {
         margin-top: 15px;
-        width: 428px;
+        width: 458px;
         height: 645px;
         border-radius: 35px;
         img {
             width: 100%;
-            margin-top: 3px;
+            margin-top: -38px;
         }
     }
     .container-2adv {
@@ -2051,6 +2061,9 @@ label i {
     }
     //advantages
     //services we offer
+    .containerservicesweoffer {
+        margin-top: 20px;
+    }
     .containerleftswo {
         width: 852px;
         border-radius: 30px;
@@ -2062,7 +2075,7 @@ label i {
     }
     
     .containerrightswo {
-        width: 486px;
+        width: 516px;
         border-radius: 30px;
         height: 240px;
         margin: 10px;
@@ -2075,7 +2088,7 @@ label i {
         }
     }
     .containerservices {
-        width: 439px;
+        width: 450px;
         height: 217px;
         background-color: #111111;
         border-radius: 30px;
@@ -2129,14 +2142,21 @@ label i {
         gap: 26px;
         margin-left: 26px;
         margin-right: 26px;
-        padding-bottom: 100px;
+        padding-bottom: 40px;
     }
     //brands we services
     //visual parts
+    .containervisual {
+        margin-top: -20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
     .containerfrsblvis {
         height: 585px;
-        width: 1321px;
-        border-radius: 20px;
+        width: 1380px;
+        border-radius: 25px;
         img {
             margin-top: 8%;
         }
@@ -2167,10 +2187,10 @@ label i {
     //in house innovations
     .containerinov {
         border-radius: 30px;
-        width: 1341px;
+        width: 1380px;
         height: 480px;
         margin-bottom: 15px;
-        margin-bottom: 90px;
+        margin-bottom: 40px;
     }
     
     .con1 {
@@ -2204,7 +2224,7 @@ label i {
     .con3 {
         max-width: 230px;
         margin: 20px;
-        margin-left: -20px;
+        margin-left: 0px;
         font-size: 15px;
         padding-bottom: 20px;
         padding-left: 25px;
@@ -2236,13 +2256,13 @@ label i {
     //in house innovations
     //footer
     .containerrightft {
-        width: 617px;
-        height: 617px;
+        width: 720px;
+        height: 720px;
         border-radius: 35px;
         margin-right: 50px;
         img {
-            width: 657px;
-            height: 657px;
+            width: 720px;
+            height: 720px;
             border-radius: 35px;
         }
     }
@@ -2251,8 +2271,624 @@ label i {
         padding-top: 70px;
         margin-right: 15px;
         margin-left: 30px;
-        height: 587px;
-        width: 657px;
+        height: 650px;
+        width: 720px;
+        h2{
+            font-weight: 400;
+        }
+        p {
+            margin-bottom: 40px;
+        }
+    }
+    .containerftheader {
+        font-size: 32px;
+        margin-left: 40px;
+        margin-bottom: 3px;
+    }
+    
+    .containerdopinfo {
+        font-size: 12px;
+        margin-left: 65px;
+    }
+    .form-group .form-input1 {
+        padding: 18px;
+        margin: 10px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 230px;
+    }
+    
+    .form-group .form-input11 {
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 230px;
+    }
+    
+    .form-group .form-input {
+        padding: 18px;
+        margin: 10px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 508px;
+    }
+    
+    .form-group .form-input2 {
+        padding: 18px;
+        margin: 10px;
+        padding-bottom: 140px;
+        border-radius: 18px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        width: 508px;    
+    } 
+    .btnft {
+        top: -10px;
+        padding: 15px;
+        margin-top: 20px;
+        width: 517px;
+        gap: 10px;
+        border-radius: 18px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .cotainerrightft {
+        p{
+            font-size: 12px;
+        }
+    }
+    .cotainerleftft {
+        a {
+            font-size: 12px;
+        }
+    }
+    .containerlineft {
+        height: 1px;
+    }
+    .btnft1 {
+        top: -10px;
+        padding: 16px;
+        margin-top: 20px;
+        width: 80px;
+        gap: 10px;
+        border-radius: 18px;
+        font-size: 16px;
+        font-weight: 400;
+        p {
+            font-size: 14px;
+            font-family: manrope;
+        }
+    }
+    .form-group1 .form-input3 {
+        padding: 18px;
+        border-radius: 18px;
+        margin-bottom: 0px;
+        width: 342px;    
+        margin-right: -5px;
+        font-size: 12px;
+    }
+    .containup1 {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        font-weight: 300;
+        font-size: 13px;
+        margin-right: 300px;
+    }
+    .containdwn {
+        a {
+        margin: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        }
+    }
+    .containup {
+        margin-bottom: 10px;
+        img {
+            width: 200px;
+            margin-right: 15px;
+        }
+        i{
+            font-size: 20px;
+            margin-left: 15px;
+        }
+    }
+    //footer
+    }
+
+    @media screen and (max-width: 1024px) {
+    //nav
+        nav {
+            --nav-font-size: 20px;
+            --nav-padding: 20px;
+    }
+    
+        nav img {
+            width: 150px;
+    }
+    
+        label i {
+            font-size: 20px;
+            padding-right: 30px;
+    }
+    
+        .list {
+            gap: 50px;
+            font-size: 10px;
+    }
+    
+        .list button {
+            font-size: 10px;
+    }
+    //nav
+    //contact us button
+    .modal__box {
+        width: 630px; 
+        height: 680px;
+    }
+    .form-groupcon .form-inputcon2 {
+        width: 578px;    
+        padding: 18px;
+        padding-bottom: 180px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 10px;
+    } 
+    .form-groupcon .form-inputcon {
+        width: 578px;   
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 10px;
+    } 
+    .btnftcon {
+        width: 580px;
+        margin-left: 5px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 20px;
+    }
+    .form-groupcon .form-inputcon11 {
+        padding: 20px;
+        width: 265px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 10px;
+    }
+    .form-groupcon .form-inputcon1 {
+        padding: 20px;
+        width: 265px;
+        padding: 18px;
+        font-size: 12px;
+        border-radius: 18px;
+        margin-top: 10px;
+    }
+    .containerlinkscon {
+        gap: 10px;
+        bottom: 23px;
+        right: 30px;
+        i {
+        font-size: 23px;
+        margin: 5px;
+        }
+    }
+    .closebtn {
+        font-size: 30px;
+    }
+    .containerftheadermd {
+        font-size: 62px;
+    }
+    .modal__box {
+        img {
+            width: 200px;
+        }
+    }
+    .containerdopinfomd {
+        font-size: 16px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    //contact us button
+    //main
+    .container-left-main {
+        padding-left: 35px;
+        margin-left: 0px;
+        h1 {
+            max-width: 290px;
+            font-size: 42px;
+        }
+        p {
+            margin-top: 10px;
+            max-width: 160px;
+            font-size: 16px;
+        }
+    }
+    .container-right-main {
+        top: 65px;
+        padding-top: -10px;
+        height: 150px;
+        margin-left: 75%;
+        margin-right: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-radius: 30px;
+        h3 {
+            position: absolute;
+            padding-top: 10px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        p {
+            padding-top: 40px;
+            font-size: 12px;
+            max-width: 260px;
+            line-height: 0.95;
+        }
+    }
+    .containerbtn {
+        margin-top: 20px;
+        padding: 8px;
+        border-radius: 40px;
+        width: 90px;
+        padding-left: 31px;
+        padding-right: 31px;
+        a {
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+    .containerbtn2 {
+        margin-top: 10px;
+        padding: 4px;
+        border-radius: 40px;
+        width: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        a {
+            font-size: 12px;
+        }
+    }
+    .containercirclesinthecolum1{
+        margin-bottom: 20px;
+        width:25px;
+        height: 25px;
+        img {
+            width: 18px;
+            height: 23px;
+        }
+    }
+    .containercirclesinthecolum2{
+        margin-bottom: 20px;
+        width:25px;
+        height: 25px;
+        img {
+            width: 20px;
+            height: 25px;
+        }
+    }
+    .containercirclesinthecolum3{
+        margin-bottom: 20px;
+        width:25px;
+        height: 25px;
+        img {
+            width: 20px;
+            height: 25px;
+        }
+    }
+    .container123 {
+        margin-top: -20px;
+        margin-left: 77%;
+    }
+    .containertext1 {
+        padding-left: 60px;
+        top: 4%;
+        margin-left: 12px;
+        height: 100px;
+        border-style: dashed;
+        border-bottom: none;
+        border-right: none;
+        border-top: none;
+    }
+    #info-container {
+        margin-top: -108px;
+        padding: 20px;
+        max-width: 140px;
+        font-size: 12px;
+        line-height: 0.95;
+        h2 {
+            margin-bottom: 5px;
+        }
+        p {
+            color: rgb(134, 134, 134);
+        }
+    }
+    //main
+    //advantages
+    .containerservicesweoffer {
+        margin-top: 80px;
+    }
+    .containeradvantages {
+        margin-top: 120px;
+        height: 630px;
+    }
+    .container-header {
+        width: 325px;
+        height: 125px;
+        border-radius: 25px;
+        h2 {
+            font-size: 46px;
+            padding-left: 20px;
+            line-height: 0.85;
+            padding-top: 7%;
+        }
+    }
+    .container-1adv {
+        margin-top: 15px;
+        width: 325px;
+        height: 493px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 5px;
+        }
+    }
+    .container-2adv {
+        width: 300px;
+        height: 305px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .container-3adv {
+        margin-left: 15px;
+        width: 339px;
+        height: 305px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 8px;
+        }
+    }
+    .container-4adv {
+        width: 654px;
+        height: 312px;
+        border-radius: 35px;
+        img {
+            width: 100%;
+            margin-top: 33px;
+        }
+    }
+        .text-block {
+        top: 25px;
+        left: 30px;
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 18px;
+            max-width: 180px;
+            letter-spacing: -1.28px;
+            margin-top: 10px;
+        }
+    }
+    //advantages
+    //services we offer
+    .containerleftswo {
+        width: 852px;
+        border-radius: 30px;
+        height: 185px;
+        margin: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    
+    .containerrightswo {
+        width: 486px;
+        border-radius: 30px;
+        height: 185px;
+        margin: 10px;
+        h2 {
+            margin-top: 0px;
+            margin-left: 0px;
+            font-weight: 300;
+            font-size: 56px;
+            max-width: 350px;
+        }
+    }
+    .containerservices {
+        width: 439px;
+        height: 185px;
+        background-color: #111111;
+        border-radius: 30px;
+        margin: 10px;
+        font-family: manrope;
+        margin-bottom: 20px;
+        h3 {
+            color: white;
+            font-size: 18px;
+            font-weight: 300;
+            margin-left: 25px;
+            line-height: 0.9;
+            margin-top: 20px;
+            max-width: 250px;
+        }
+        p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.50);
+            font-weight: 300;
+            margin-left: 25px;
+            line-height: 1.1;
+            margin-top: 10px;
+            max-width: 260px;
+        }
+    }
+    //services we offer
+    //brands we services
+    .containerbrandheader {
+        margin-left: 20px;
+        h1 {
+            font-size: 55px;
+            letter-spacing: -3.4px;
+            font-weight: 300;
+        }
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+        padding: 18px;
+        border-radius: 20px;
+    }
+    .container21123 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        gap: 26px;
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+    
+    .container1223 {
+        gap: 26px;
+        margin-left: 26px;
+        margin-right: 26px;
+        padding-bottom: 70px;
+    }
+    //brands we services
+    //visual parts
+    .containervisual {
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+    .containerfrsblvis {
+        height: 455px;
+        width: 1000px;
+        border-radius: 30px;
+        img {
+            margin-top: 9%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .visualheader {
+        font-size: 38px;
+        top: 23px;
+        left: 20px;
+        max-width: 350px;
+        font-weight: 300;
+    }
+    .buttons button {
+        margin-top: 20px;
+        padding: 0px;
+        border-radius: 40px;
+        height: 49px;
+        width: 140px;
+        p {
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: 500px;
+        }
+    }
+    //visual parts
+    //in house innovations
+    .containerinov {
+        border-radius: 30px;
+        width: 1000px;
+        height: 340px;
+        margin-bottom: 15px;
+        margin-bottom: 90px;
+    }
+    
+    .con1 {
+        max-width: 400px;
+        font-size: 38px;
+        line-height: 0.85;
+        margin-top: 30px;
+        margin-left: 40px;
+        font-weight: 300;
+        span {
+            margin-left: 70px;
+            font-weight: 300;
+        }
+        h2 {
+            font-weight: 300;
+        }
+    }
+    
+    .con2 {
+        max-width: 680px;
+        margin: 40px;
+        line-height: 1;
+        font-size: 14px;
+        p {
+            font-weight: 300;
+            margin-top: -20px;
+            margin-right: 60px;
+        }
+    }
+    
+    .con3 {
+        max-width: 250px;
+        margin: 10px;
+        margin-left: -20px;
+        font-size: 13px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        p {
+            font-weight: 300;
+        }
+    }
+    
+    .containercontin {
+        bottom: 10px;
+        left: 21px;
+        margin-top: -70px;
+        border-radius: 20px;
+    }
+    
+    .containerimg {
+        bottom: -62px;
+        right: -18px;
+        width: 700px;
+        height: 180px;
+        margin-bottom: 70px;
+        border-radius: 40px;
+        margin-right: 20px;
+        img {
+            width: 100%;
+            margin-top: -2px;
+        }
+    }
+    //in house innovations
+    //footer
+    .containerrightft {
+        width: 480px;
+        height: 480px;
+        border-radius: 35px;
+        margin-right: 50px;
+        img {
+            width: 480px;
+            height: 480px;
+            border-radius: 35px;
+        }
+    }
+    .containerleftft {
+        border-radius: 25px;
+        padding-top: 70px;
+        margin-right: 15px;
+        margin-left: 30px;
+        height: 480px;
+        width: 480px;
         h2{
             font-weight: 400;
         }
